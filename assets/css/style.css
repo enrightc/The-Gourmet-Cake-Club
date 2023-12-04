@@ -45,7 +45,7 @@ h4 {
      display: flex;
      align-items: center;
      justify-content: center;
-    position: relative;
+     position: relative;
 }   
 
 .hero-title {
@@ -70,4 +70,28 @@ h4 {
 
 .cake-month-text {
     align-items: center;
+}
+
+
+  /* ----------------------------------------- Callout */
+
+
+.cta-container {
+    background: url("../images/CTA.webp") no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cta-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    max-width: 450px;
 }
