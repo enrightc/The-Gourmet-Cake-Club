@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 header {
     margin: 0;
 }
 
 .logo {
+    
     height: 50px;
     width: auto;
     margin: 0 32px;
 }
+/* ----------------------------------------- Colors */
+
+
 
 /* ----------------------------------------- special paddings/margins/text */
 
@@ -34,26 +31,36 @@ h4 {
 /* ----------------------------------------- Hero */
 
 .hero-container {
-    background: url("../images/hero.webp") no-repeat top center fixed;
-    height: 100vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+     background: url("../images/hero.webp") no-repeat top center fixed;
+     height:100vh;
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
     position: relative;
-}
+}   
 
 .jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
+        color:white;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
 
 .lead {
-    color: #141411;
-    padding: 5px;
-    background-color: white;
+       color: #141411;
+       padding: 5px;
+       background-color: white;
+   }
+
+/* ----------------------------------------- Cake of the Month */
+.cake-month-image{
+    width:100%;
+}
+
+.cake-month-text {
+    align-items: center;
 }
