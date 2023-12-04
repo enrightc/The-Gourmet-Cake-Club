@@ -1,4 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 header {
     margin: 0;
@@ -10,6 +13,8 @@ header {
     width: auto;
     margin: 0 32px;
 }
+
+body {}
 /* ----------------------------------------- Colors */
 
 
@@ -40,14 +45,14 @@ h4 {
      display: flex;
      align-items: center;
      justify-content: center;
-
     position: relative;
 }   
 
-.jumbotron-header {
+.hero-title {
         color:white;
         font-weight: bold;
         margin-bottom: 30px;
+        max-width: 900px;;
     }
 
 .lead {
@@ -57,6 +62,8 @@ h4 {
    }
 
 /* ----------------------------------------- Cake of the Month */
+
+
 .cake-month-image{
     width:100%;
 }
