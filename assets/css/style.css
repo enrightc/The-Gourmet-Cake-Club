@@ -11,6 +11,26 @@ header {
     margin: 0;
 }
 
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 0 32px;
+}
+
+/* ----------------------------------------- special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ----------------------------------------- Hero */
 
 .hero-container {
@@ -26,9 +46,14 @@ header {
     position: relative;
 }
 
-
 .jumbotron-header {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.lead {
+    color: #141411;
+    padding: 5px;
+    background-color: white;
 }
