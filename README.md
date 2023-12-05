@@ -35,7 +35,7 @@ Features to be added at a later date of development:
 
 ## Code
 
-
+- For help with position navigation links to centre of nav bar: <https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items> [Accessed 21st Nov 2023]
 
 ## Wireframes
 

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
 body {
     font-family: 'Playfair Display', serif;
 }
@@ -13,12 +17,24 @@ header {
     margin: 0 32px;
 }
 
-.block-divider-black {
-    width: 400px;
-    height: 2px;
-    background-color: #080000;
+
+
+.padding-space {
+    margin-top: 80px;
 }
 
+/* ----------------------------------------- Navbar */
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 
 
 /* ----------------------------------------- Colors */
@@ -51,6 +67,7 @@ h4 {
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 .hero-title {
@@ -102,4 +119,34 @@ h4 {
     font-weight: bold;
     margin-bottom: 30px;
     max-width: 450px;
+}
+
+/* ----------------------------------------- Buttons */
+.cta-btn {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 200px;
+    background-color: #0047ff;
+    color: white;
+    border: #0047ff;
+}
+
+.cta-btn:hover,
+.cta-btn:active,
+.cta-btn:focus,
+.cta-btn:active:focus {
+    background-color: #4e7fff;
+    border-color: ##4e7fff;
+    color: white;
+}
+
+.feature-btn {
+    font-weight: bold;
+    border-radius: 25px;
+    width: auto;
+    ;
+    background-color: none;
+    color: #4e7fff;
+    border: none;
+    font-size: 16px;
 }
