@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-
-body {
+ody {
     font-family: 'Playfair Display', serif;
 }
 
@@ -149,4 +145,33 @@ h4 {
     color: #4e7fff;
     border: none;
     font-size: 16px;
+}
+
+
+/* ----------------------------------------- Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.social-links {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    font-size: 32px;
+    padding: 12px;
+    color: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: black;
 }
