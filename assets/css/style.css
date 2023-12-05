@@ -24,8 +24,6 @@ header {
     }
 }
 
-
-
 /* ----------------------------------------- Navbar */
 .navbar {
     background-color: white;
@@ -68,7 +66,7 @@ h2 {
     margin: 10px 0;
 }
 
-/* ----------------------------------------- Hero */
+/* ----------------------------------------- Home Hero */
 
 .hero-container {
     background: url("../images/hero.webp") no-repeat top center;
@@ -81,7 +79,6 @@ h2 {
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
 
 .hero-title {
@@ -95,13 +92,29 @@ h2 {
     text-align: center;
 }
 
+/* ----------------------------------------- Page Hero */
+.page-hero-container {
+    height: 50vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.page-hero-container.monthly-cake {
+    background: url("../images/chef-baking.webp") no-repeat bottom center;
+}
 
 /* ----------------------------------------- Cake of the Month */
 .cake-month-container {}
 
 .cake-month-image {
     width: 100%;
+    height: 100%;
 }
 
 .cake-month-text {
@@ -114,7 +127,10 @@ h2 {
 }
 
 /* ----------------------------------------- Recipes */
-
+.cake-recipes-image {
+    width: 100%;
+    height: 100%;
+}
 
 /* ----------------------------------------- Callout */
 
