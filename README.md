@@ -51,4 +51,11 @@ Features to be added at a later date of development:
 
 ## Bugs
 
+### Issue
+
+- When testing on a mobile phone display I noticed the hero image was not rednering correctly. It was zoomed in on a small section of the image.
+
+### Resolution
+
+- I worked through the properties in the CSS for the background image and was able to isoalte that the "fixed" value in the "background" property was causing the issue.
 

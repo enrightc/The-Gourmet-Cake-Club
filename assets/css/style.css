@@ -57,7 +57,7 @@ h4 {
 /* ----------------------------------------- Hero */
 
 .hero-container {
-    background: url("../images/hero.webp") no-repeat top center fixed;
+    background: url("../images/hero.webp") no-repeat top center;
     height: 100vh;
     background-size: cover;
     -webkit-background-size: cover;
