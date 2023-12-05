@@ -12,7 +12,6 @@ header {
 }
 
 .logo {
-
     height: 50px;
     width: auto;
     margin: 0 32px;
@@ -20,8 +19,11 @@ header {
 
 
 .padding-space {
-    margin-top: 80px;
+    @media(maxwidth: 768px) {
+        margin-top: 80px;
+    }
 }
+
 
 
 /* ----------------------------------------- Navbar */
@@ -50,6 +52,10 @@ h3,
 h4 {
     margin: 0;
     font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    margin-bottom: 10px;
 }
 
 .uppercase {
@@ -102,11 +108,12 @@ h4 {
     align-items: center;
 }
 
-/* ----------------------------------------- Recipes */
 .reverse {
     display: flex;
     flex-direction: row-reverse;
 }
+
+/* ----------------------------------------- Recipes */
 
 
 /* ----------------------------------------- Callout */
@@ -139,7 +146,7 @@ h4 {
     font-weight: bold;
     border-radius: 25px;
     width: 200px;
-    background-color: #0047ff;
+    background-color: #595858;
     color: white;
     border: #0047ff;
 }
@@ -149,20 +156,44 @@ h4 {
 .cta-btn:focus,
 .cta-btn:active:focus {
     background-color: #4e7fff;
-    border-color: #4e7fff;
     color: white;
 }
 
 .feature-btn {
     font-weight: bold;
     border-radius: 25px;
-    width: auto;
-    ;
-    background-color: none;
-    color: #4e7fff;
-    border: none;
-    font-size: 16px;
+    width: 200px;
+    background-color: #2f2d2d;
+    color: white;
 }
+
+.feature-btn:hover,
+.feature-btn:active,
+.feature-btn:focus,
+.feature-btn:active:focus {
+    background-color: #4e7fff;
+    color: white;
+}
+
+.nav-sign-up:hover {
+    color: #4e7fff;
+}
+
+.btn-sign-up {
+    border-radius: 25px;
+    width: 200px;
+    background-color: #2f2d2d;
+    color: white;
+}
+
+.btn-sign-up-btn:hover,
+.btn-sign-up-btn:active,
+.btn-sign-up-btn:focus,
+.btn-sign-up-btn:active:focus {
+    background-color: #4e7fff;
+    color: white;
+}
+
 
 
 /* ----------------------------------------- Footer */
@@ -192,3 +223,5 @@ footer {
 .social-links li a i:hover {
     color: black;
 }
+
+/* ----------------------------------------- media queries */
