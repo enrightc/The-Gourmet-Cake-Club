@@ -22,56 +22,29 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
-        <a href="index.html"
-          ><img
-            class="navbar-brand logo"
-            src="assets/images/logo.png"
-            alt="The company logo illustrated by a sketch of a slice of cake."
-        /></a>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <a href="index.html"><img class="navbar-brand logo" src="assets/images/logo.png"
+                    alt="The company logo illustrated by a sketch of a slice of cake."></a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="active nav-item mr-2">
-              <a class="nav-link" href="/cake-of-the-month.html"
-                >Cake of the Month</a
-              >
-            </li>
-            <li class="nav-item mr-2">
-              <a class="nav-link" href="#">Recipes</a>
-            </li>
-            <li class="nav-item mr-2"><a class="nav-link" href="baking-tips.html">Baking Tips</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none">
-              <a
-                class="nav-link"
-                data-toggle="modal"
-                data-target="#signUpModal"
-                href="#"
-                >Sign Up</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="d-none d-md-block">
-          <p class="navbar-text my-auto mr-2"><i>Monthly Cake Recipes</i></p>
-          <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-        </div>
-      </nav>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="cake-of-the-month.html">Cake of the Month</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/baking-tips.html">Baking Tips</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" data-toggle="modal"
+                            data-target="#signUpModal" href="#">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Monthly Cake Recipes</i></p>
+                <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+            </div>
+        </nav>
 
       <!-- Hero -->
         <div class="container-fluid page-hero-container monthly-cake"></div>
@@ -281,72 +254,42 @@
     <!-- /.Ingredients and recipe -->
 
     <!-- Modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">
-              Sign up to the Gourmet Cake Club to receive delicious recipes
-              straight to your inbox
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form
-              id="sign-up"
-              method="post"
-              action="https://formdump.codeinstitute.net"
-            >
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  name="name"
-                  id="name"
-                  placeholder="Your first name"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  id="email"
-                  aria-describedby="email"
-                  placeholder="Enter email"
-                  required
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="check" />
-                <label class="form-check-label" for="check"
-                  >I agree to receive emails from the Gourmet Cake Club</label
-                >
-              </div>
-              <button type="submit" class="btn btn-lg btn-sign-up">
-                Sign me up
-              </button>
-            </form>
-          </div>
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
+                            your inbox</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
+                                    required>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
+                                    placeholder="Enter email" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div>
+                                <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club</p>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- /.Modal -->
-
+        <!-- /.Modal -->
+    
     <footer class="container-fluid">
         <div class="row">
             <div class="col-12">
