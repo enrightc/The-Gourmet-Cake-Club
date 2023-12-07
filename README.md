@@ -1,5 +1,5 @@
 # GOURMET CAKE CLUB
-
+The Gourmet Cake Club provides a go-to destination for an exquisite assortment of beautifully crafted cakes. Explore our monthly feature, the "Cake of the Month," which features a delightful cake with detailed recipes and ingredients for a tempting experience. If you're hungry for more, sign up to receive additional sweet surprises directly to your inbox. Explore our "Baking Tips" section to find answers to common cake-making queries. Join us in celebrating the art of baking with each visit.
 Visit Gourmet Cake Clubs website here [The Gourmet Cake Club](https://enrightc.github.io/Gourmet-Cake-Club-Website/)
 
 ## Overall Website Aim
