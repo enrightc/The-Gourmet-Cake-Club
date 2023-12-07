@@ -39,15 +39,15 @@ Features to be added at a later date of development:
 
 ## Wireframes
 
-[Homepage Wireframe](assets/wireframes/index.html.png)
+[Homepage](docs/wireframes/index.html.png)
 
-[Cake of the Month](assets/wireframes/cake-of-the-month.png)
+[Cake of the Month](docs/wireframes/cake-of-the-month.png)
 
-[Recipes](assets/wireframes/recipes.png "Recipes")
+[Recipes](docs/wireframes/recipes.png)
 
-[sign-up](assets/wireframes/sign-up.png "Sign up wireframe")
+[sign-up](docs/wireframes/sign-up.png)
 
-[Tips](assets/wireframes/tips.png "Tips wireframe")
+[Tips](docs/wireframes/tips.png)
 
 ## Bugs
 
