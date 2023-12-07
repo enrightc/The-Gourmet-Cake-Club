@@ -17,9 +17,9 @@ header {
     margin: 0 32px;
 }
 
-
-.padding-space {
-    @media(maxwidth: 768px) {
+/* ----------------------------------------- Media Queries */
+@media (max-width: 768px) {
+    .padding-space {
         margin-top: 80px;
     }
 }
@@ -170,13 +170,10 @@ h2 {
     width: 200px;
     background-color: #595858;
     color: white;
-    border: #0047ff;
+    border: #595858;
 }
 
-.cta-btn:hover,
-.cta-btn:active,
-.cta-btn:focus,
-.cta-btn:active:focus {
+.cta-btn:hover {
     background-color: #4e7fff;
     color: white;
 }
@@ -205,6 +202,11 @@ h2 {
     border-radius: 25px;
     width: 200px;
     background-color: #2f2d2d;
+    color: white;
+}
+
+.btn-sign-up:hover {
+    background-color: #4e7fff;
     color: white;
 }
 
@@ -246,4 +248,3 @@ footer {
     color: black;
 }
 
-/* ----------------------------------------- media queries */
