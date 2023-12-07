@@ -19,6 +19,22 @@ The primary aim of the Gourmet Cake Club website is to delight cake enthusiasts 
 - Showcase Cake Expertise: The site aims to establish itself as a go-to source for cake-related information, showcasing the owner's expertise.
 - Increase Website Traffic: The site owner desires increased traffic to the website through engaging content and marketing efforts.
 - Encourage Social Media Sharing: The owner hopes users will share their favourite recipes, blog posts, or Cake of the Month features on social media, contributing to the website's visibility.
+  
+- ## User Story
+- First-time User
+
+  - As a first-time user, I want to quickly grasp the essence of the Gourmet  Cake Club and understand how it caters to cake enthusiasts with its high-end and visually stunning cakes.
+  - As a first-time user, I aim to navigate the website effortlessly, ensuring a positive and enjoyable experience while exploring the exquisite cake collection.
+  - As a first-time user, I want to freely browse through the cake recipes and baking tips without the need to sign up, allowing me to sample the content before committing.
+  
+- Returning User
+
+    - As a returning user, I want to easily find the featured Cake of the Month that aligns with my taste, providing a delightful experience as I discover new and exciting recipes.
+    - As a returning user, I seek clear and concise instructions for each cake recipe, including details about the ingredients and baking techniques, enhancing my baking skills.
+
+- Frequent User
+    - As a frequent user, I want the option to sign up for the Gourmet Cake Club newsletter, ensuring I stay informed about new cake recipes added to the collection.
+    - As a frequent user, I aspire to contribute my favorite cake recipes or baking tips, actively participating in the community and benefiting other cake enthusiasts.
 
 ## Additional Features
 
