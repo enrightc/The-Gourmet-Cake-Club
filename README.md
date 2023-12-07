@@ -4,13 +4,12 @@ Visit Gourmet Cake Clubs website here [The Gourmet Cake Club](https://enrightc.g
 
 ## Overall Website Aim
 
-The primary aim of the Cake Gourmet Club website is to delight cake enthusiasts with an exquisite collection of high-end, visually stunning cakes, providing a sophisticated platform for discovering and indulging.
+The primary aim of the Gourmet Cake Club website is to delight cake enthusiasts with an exquisite collection of high-end, visually stunning cakes, providing a sophisticated platform for discovering and indulging. Each month a new "Cake of the Month" will be added where visitors will be able to find the cake recipe and ingredients. In addition to this visitors will be able to find a "Baking Tips" page that answers some of the common questions people have when baking cakes.
 
 ## External User Goals
 
 - Discover Delicious Recipes: Users will want to explore a variety of cake recipes, including the unique “Cake of the month”
-- Learn Baking Techniques: Through the FAQ section users can acquire baking tips and techniques to improve their cakes.
-- Submit Questions: Users can submit further questions.
+- Learn Baking Techniques: Through the "Baking Tips"" section users can acquire baking tips and techniques to improve their cakes.
 - Access Cake of the Month Features: Users are excited to discover and potentially try the featured Cake of the Month.
 - Sign-Up: Users can sign up to the monthly newsletter to receive more cake recipes straight to their inbox.
 
@@ -27,15 +26,28 @@ Features to be added at a later date of development:
 
 - Build a Community: The site owner aims to create a community of cake lovers, fostering engagement and interaction among users through comment sections on recipes.
 - Promote Featured Products: If applicable, the site owner may want to showcase and promote certain baking products, tools, or ingredients.
+- Site visitors could submit further questions if they arent answered in the "Baking Tips" page. 
 
 ## Credit
+### Content
+- Chocolate Nutella Cake recpie was sourced from [Baked by an introvert](https://www.bakedbyanintrovert.com/nutella-cake/).
 
 ### Images
+- Home page images were obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
+- All other images weer created using ChatGPT DALL.E.
 
 
-## Code
+## Resources
+### For general advice and guidance
+- [W3Schools](https://www.w3schools.com)
+- [Stack overflow](https://stackoverflow.com)
+- Code Instiute learning material
 
-- For help with position navigation links to centre of nav bar: <https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items> [Accessed 21st Nov 2023]
+### For specific tasks
+- For help with position navigation links to centre of nav bar: [Stack overflow](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) 
+[Accessed 21st Nov 2023]
+- For help with Aria-labels and background images [Alternate Text for Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+[Accessed 7th Dec 2023]
 
 ## Wireframes
 
