@@ -66,6 +66,10 @@ h2 {
     margin: 10px 0;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 /* ----------------------------------------- Home Hero */
 
 .hero-container {
@@ -107,6 +111,10 @@ h2 {
 
 .page-hero-container.monthly-cake {
     background: url("../images/chef-baking.webp") no-repeat bottom center;
+}
+
+.page-hero-container.baking-tips {
+    background: url("../images/baking-tips-hero.webp") no-repeat bottom center;
 }
 
 /* ----------------------------------------- Cake of the Month */
