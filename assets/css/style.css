@@ -24,6 +24,13 @@ header {
     }
 }
 
+@media only screen and (max-width: 736px) {
+    .recipe {
+        padding-left: 0;
+    }
+}
+
+
 /* ----------------------------------------- Navbar */
 .navbar {
     background-color: white;
@@ -60,9 +67,35 @@ h4 {
     font-family: 'Playfair Display', serif;
 }
 
+h1 {
+    font-size: 34px;
+}
+
 h2 {
+    font-size: 30px;
     margin-bottom: 10px;
 }
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
 
 .uppercase {
     text-transform: uppercase;
@@ -86,6 +119,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 /* ----------------------------------------- Home Hero */
 
@@ -194,10 +229,16 @@ margin: 77px auto;
     border-radius: 3%;
 }
 
+    /* ----------------------------------------- Cake of the Month Page */
 /* ----------------------------------------- Cake of the month bio */
 .chocolate-cake-image {
     width: 100%;
     height: 100%;
+}
+
+/* ----------------------------------------- Ingredients and Recipe */
+.recipe {
+    padding-left: 85px;
 }
 
 /* ----------------------------------------- Buttons */
