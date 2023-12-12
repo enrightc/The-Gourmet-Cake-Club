@@ -120,7 +120,9 @@ li {
     margin-right: auto;
 }
 
-
+.page-title {
+    margin: 45px;
+}
 
 /* ----------------------------------------- Home Hero */
 
@@ -240,6 +242,22 @@ margin: 77px auto;
 .recipe {
     padding-left: 85px;
 }
+
+    /* ----------------------------------------- Cake of the Month Page */
+/* ----------------------------------------- Accordion */
+.card-header {
+    background-color: rgb(90 91 92);
+}
+
+.btn-link {
+    color: white;
+}
+
+.btn-link:hover {
+    color: white;
+}
+
+
 
 /* ----------------------------------------- Buttons */
 .cta-btn {
