@@ -37,6 +37,14 @@ header {
     font-weight: bold;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
 
 /* ----------------------------------------- Colors */
 
@@ -149,7 +157,7 @@ padding-bottom: 80px;
 /* ----------------------------------------- Recipes */
 .cake-recipes-image {
     width: 100%;
-    height: auto%;
+    height: auto;
 }
 
 /* ----------------------------------------- Callout */
