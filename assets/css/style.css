@@ -293,6 +293,15 @@ margin: 77px auto;
     color: white;
 }
 
+.cta-btn:hover 
+.cta-btn:active,
+.cta-btn:focus,
+.cta-btn:active:focus {
+    background-color: #595858;
+    color: white;
+    box-shadow: none;
+}
+
 .feature-btn {
     font-weight: bold;
     border-radius: 25px;
@@ -325,7 +334,7 @@ margin: 77px auto;
 .btn-sign-up-btn:active,
 .btn-sign-up-btn:focus,
 .btn-sign-up-btn:active:focus {
-    background-color: #4e7fff;
+    background-color: none;
     color: white;
 }
 
