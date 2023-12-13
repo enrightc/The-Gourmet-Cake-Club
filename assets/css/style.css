@@ -4,7 +4,8 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display',
+        serif;
 }
 
 header {
@@ -58,7 +59,8 @@ a:hover {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
     margin: 0;
     font-family: 'Playfair Display', serif;
 }
@@ -95,6 +97,7 @@ li {
 
 p {
     line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 
@@ -245,7 +248,7 @@ margin: 77px auto;
 
 /* ----------------------------------------- Ingredients and Recipe */
 .recipe {
-    padding-left: 85px;
+    padding-left: 95px;
 }
 
 @media only screen and (max-width: 736px) {
@@ -270,6 +273,7 @@ margin: 77px auto;
 
 .btn-link {
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .btn-link:hover {
@@ -308,6 +312,7 @@ margin: 77px auto;
     width: 200px;
     background-color: #2f2d2d;
     color: white;
+    margin-top: 25px;
 }
 
 .feature-btn:hover,
