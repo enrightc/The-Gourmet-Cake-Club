@@ -1,319 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes. ">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <script src="https://kit.fontawesome.com/c3713995f0.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes. "
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c3713995f0.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="preload" href="../images/chef-baking.webp" as="image" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" />
     <title>Gourmet Cake Club</title>
-    <link rel="preload" href="../images/baking-tips-hero.webp" as="image">
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
-            <a href="index.html"><img class="navbar-brand logo" src="assets/images/logo.webp" width="500" height="318"
-                    alt="The company logo illustrated by a sketch of a slice of cake."></a>
-        
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="cake-of-the-month.html">Cake of the Month</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="baking-tips.html">Baking Tips</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link sign-up-link" data-toggle="modal"
-                            data-target="#signUpModal" href="#">Sign Up</a></li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Monthly Cake Recipes</i></p>
-                <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-            </div>
-        </nav>
-        
-        <!-- Hero -->
-        <div class="container-fluid page-hero-container baking-tips-hero"></div>
-        <div role="img" aria-label="image of a busy professional kitchen. The kitchen is well-equipped with stainless steel appliances, including stoves, ovens, and a variety of cooking utensils and ingredients on the worktop"></div>
-        <div class="container text-align-center">
-            <h1 class="page-title">Baking Tips</h1> 
-            <p>
-                Explore our curated collection of frequently asked questions that will guide you towards creating the perfect cake.
-                Uncover valuable insights and expert tips to enhance your baking experience and ensure delightful results
-            </p>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <a href="index.html"
+          ><img
+            class="navbar-brand logo"
+            src="assets/images/logo.webp"
+            width="500"
+            height="318"
+            alt="The company logo illustrated by a sketch of a slice of cake."
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+            <li class="active nav-item mr-2">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="cake-of-the-month.html"
+                >Cake of the Month</a
+              >
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="baking-tips.html">Baking Tips</a>
+            </li>
+            <li class="nav-item mr-2 d-block d-sm-none">
+              <a
+                class="nav-link sign-up-link"
+                data-toggle="modal"
+                data-target="#signUpModal"
+                href="#"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
         </div>
-        <!-- /.Hero -->
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2"><i>Monthly Cake Recipes</i></p>
+          <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="container-fluid page-hero-container baking-tips-hero"></div>
+      <div
+        role="img"
+        aria-label="image of a busy professional kitchen. The kitchen is well-equipped with stainless steel appliances, including stoves, ovens, and a variety of cooking utensils and ingredients on the worktop"
+      ></div>
+      <div class="container text-align-center">
+        <h1 class="page-title">Baking Tips</h1>
+        <p>
+          Explore our curated collection of frequently asked questions that will
+          guide you towards creating the perfect cake. Uncover valuable insights
+          and expert tips to enhance your baking experience and ensure
+          delightful results
+        </p>
+      </div>
+      <!-- /.Hero -->
     </header>
 
     <div class="container tips-accordion">
-        <div class="accordion" id="accordionExample">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                            aria-expanded="false" aria-controls="collapseOne">
-                            Q: Can I substitute ingredients in a cake recipe?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: While some substitutions are possible, they can affect the texture and taste. For major substitutions, it's best to
-                        follow a recipe designed for those specific changes.
-                    </div>
-                </div>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Q: Can I substitute ingredients in a cake recipe?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: While some substitutions are possible, they can affect the
+              texture and taste. For major substitutions, it's best to follow a
+              recipe designed for those specific changes.
             </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                            aria-expanded="false" aria-controls="collapseTwo">
-                            Q: How can I prevent my cake from sticking to the pan?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Ensure your pans are properly greased and floured. You can also use parchment paper at the bottom. Dusting with cocoa
-                        powder for chocolate cakes is a great alternative to flour.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
-                            aria-expanded="false" aria-controls="collapseThree">
-                            Q: What's the importance of room temperature ingredients?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Room temperature ingredients, especially eggs and butter, blend more smoothly, creating a better texture in your
-                        cake. Cold ingredients can result in uneven mixing and affect the final product.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFour">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
-                            aria-expanded="false" aria-controls="collapseOne">
-                            Q: Can I freeze a frosted cake?
-                        </button>
-                    </h2>
-                </div>
-            
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Yes, you can freeze a frosted cake. Ensure it's well-wrapped to prevent freezer burn. Thaw it overnight in the
-                        refrigerator before serving.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFive">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
-                            aria-expanded="false" aria-controls="collapseTwo">
-                            Q: How do I make buttermilk if I don't have any?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Add 1 tablespoon of lemon juice or vinegar to a 1-cup liquid measuring cup. Fill with whole milk, stir, and let it
-                        sit for 5 minutes. Repeat for every cup of buttermilk needed.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSix">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
-                            aria-expanded="false" aria-controls="collapseThree">
-                            Q: Why did my cake turn out dry?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Overmixing the batter or overbaking the cake can lead to a dry texture. Follow the recommended mixing times and check
-                        for doneness a few minutes before the suggested baking time.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSeven">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven"
-                            aria-expanded="false" aria-controls="collapseSeven">
-                            Q: How do I store leftover cake?
-                        </button>
-                    </h2>
-                </div>
-            
-                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Store leftover cake in an airtight container at room temperature for up to 3 days or in the refrigerator for up to 5
-                        days. Freeze for longer storage.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingEight">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
-                            aria-expanded="false" aria-controls="collapseTwo">
-                            Q: Why did my cake sink in the middle?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Overmixing, underbaking, or opening the oven door too soon can cause a cake to sink. Follow the recommended baking
-                        times and avoid excessive mixing.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingNine">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
-                            aria-expanded="false" aria-controls="collapseNine">
-                            Q: Can I make a cake without a specific pan size?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Pan sizes can affect baking times and results. It's best to use the pan size specified in the recipe. If you must use
-                        a different size, adjust baking times accordingly.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen"
-                            aria-expanded="false" aria-controls="collapseTen">
-                            Q: How can I achieve a moist cake?
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
-                    <div class="card-body">
-                        A: Use ingredients with moisture, like buttermilk or sour cream. Avoid overbaking, as this can lead to a dry texture.
-                        Storage in an airtight container also helps retain moisture.
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q: How can I prevent my cake from sticking to the pan?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Ensure your pans are properly greased and floured. You can also
+              use parchment paper at the bottom. Dusting with cocoa powder for
+              chocolate cakes is a great alternative to flour.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q: What's the importance of room temperature ingredients?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Room temperature ingredients, especially eggs and butter, blend
+              more smoothly, creating a better texture in your cake. Cold
+              ingredients can result in uneven mixing and affect the final
+              product.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Q: Can I freeze a frosted cake?
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Yes, you can freeze a frosted cake. Ensure it's well-wrapped to
+              prevent freezer burn. Thaw it overnight in the refrigerator before
+              serving.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q: How do I make buttermilk if I don't have any?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Add 1 tablespoon of lemon juice or vinegar to a 1-cup liquid
+              measuring cup. Fill with whole milk, stir, and let it sit for 5
+              minutes. Repeat for every cup of buttermilk needed.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Q: Why did my cake turn out dry?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseSix"
+            class="collapse"
+            aria-labelledby="headingSix"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Overmixing the batter or overbaking the cake can lead to a dry
+              texture. Follow the recommended mixing times and check for
+              doneness a few minutes before the suggested baking time.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                Q: How do I store leftover cake?
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseSeven"
+            class="collapse"
+            aria-labelledby="headingSeven"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Store leftover cake in an airtight container at room
+              temperature for up to 3 days or in the refrigerator for up to 5
+              days. Freeze for longer storage.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseEight"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Q: Why did my cake sink in the middle?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseEight"
+            class="collapse"
+            aria-labelledby="headingEight"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Overmixing, underbaking, or opening the oven door too soon can
+              cause a cake to sink. Follow the recommended baking times and
+              avoid excessive mixing.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseNine"
+                aria-expanded="false"
+                aria-controls="collapseNine"
+              >
+                Q: Can I make a cake without a specific pan size?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseNine"
+            class="collapse"
+            aria-labelledby="headingNine"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Pan sizes can affect baking times and results. It's best to use
+              the pan size specified in the recipe. If you must use a different
+              size, adjust baking times accordingly.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTen">
+            <h2 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTen"
+                aria-expanded="false"
+                aria-controls="collapseTen"
+              >
+                Q: How can I achieve a moist cake?
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTen"
+            class="collapse"
+            aria-labelledby="headingTen"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              A: Use ingredients with moisture, like buttermilk or sour cream.
+              Avoid overbaking, as this can lead to a dry texture. Storage in an
+              airtight container also helps retain moisture.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-        
 
-
-
-        <!-- Footer-->
-        <footer class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.facebook.com"
-                                aria-label="Go to our facebook page (opens in new tab)" rel="noopener">
-                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.twitter.com"
-                                aria-label="Go to our twitter page (opens in new tab)" rel="noopener">
-                                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.instagram.com"
-                                aria-label="Go to our instrgram (opens in new tab)" rel="noopener">
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                                <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="https://www.youtube.com"
-                                aria-label="Go to our youtube channel (opens in new tab)" rel="noopener">
-                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">Youtube</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p>This website was made by Charlie Enright as part of the Code Institute Milestone One Project.</p>
-                </div>
-            </div>
-        </footer>
-        <!-- /.Footer -->
-        
-        <!-- Modal-->
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
-                            your inbox</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
-                                    required>
-                            </div>
-        
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
-                                    placeholder="Enter email" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                    else.</small>
-                            </div>
-                            <div>
-                                <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club</p>
-                            </div>
-                            <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <!-- Footer-->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.facebook.com"
+                aria-label="Go to our facebook page (opens in new tab)"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.twitter.com"
+                aria-label="Go to our twitter page (opens in new tab)"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.instagram.com"
+                aria-label="Go to our instrgram (opens in new tab)"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.youtube.com"
+                aria-label="Go to our youtube channel (opens in new tab)"
+                rel="noopener"
+              >
+                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">Youtube</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- /.Modal -->
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-        
-        </body>
-        
-        </html>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>
+            This website was made by Charlie Enright as part of the Code
+            Institute Milestone One Project.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /.Footer -->
+
+    <!-- Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Sign up to the Gourmet Cake Club to receive delicious recipes
+              straight to your inbox
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="sign-up"
+              method="post"
+              action="https://formdump.codeinstitute.net"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="name"
+                  placeholder="Your first name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  placeholder="Enter email"
+                  required
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div>
+                <p>
+                  By clicking the "Sign Me Up" button you agree to receive
+                  emails from the Gourmet Cake Club
+                </p>
+              </div>
+              <button type="submit" class="btn btn-lg btn-sign-up">
+                Sign me up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.Modal -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

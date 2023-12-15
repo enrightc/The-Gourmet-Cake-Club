@@ -150,7 +150,7 @@ Welcome message and features:
 ![Navigation bar](docs/readme_images/landing-page-features.png)
  
 
- - **Call To Action**
+  **Call To Action**
   - At the bottom of the page visitirs will find a call-to-action. Clicking the sign-up button triggers the same modal as seen in the navigation bar.
 
 Call-to-Action:
@@ -169,7 +169,7 @@ Ingredients and Recipe:
 ![Call to action screenshot](docs/readme_images/recipe-screenshot.png)
 
 ### **Baking Tips Page**
-  - On this page visitors can find answers to some of the most common bake ckking related questions.
+  - On this page visitors can find answers to some of the most common cake baking questions.
   - A Bootstrap accordion component has been used to organise the conent within callapsible items. This particular accordion allows the display of one collapsed item a time. 
   - The accordion proves a user-friendly experience. Visitors can click on a question to reveal the answer.
 
@@ -242,15 +242,6 @@ Footer:
 - investigation and Solution:
   - Added padding to the top of the container. Now when the user clociks the links the relevant headings are visible. 
 
-#### Cursor Not Changing to Pointer on Safari
-
-- Issue: On the Safari browser, when hovering over links, the cursor does not change to the expected pointer icon as it does on other browsers.
-- Description: The default cursor behavior is not being observed on Safari when hovering over clickable links. Users may expect a visual cue, such as a pointer icon, to indicate a interactive link. This non-standard behavior can cause confusion and impact the perceived responsiveness of the website.
-- Expected Behavior: When hovering over links, the cursor should change to a pointer icon across all browsers, providing a clear indication to users that the element is clickable.
-- Steps to Reproduce:
-  - Open the website on Safari.
-  - Hover over any clickable link.
-
 # Technology
 
 ## Languages Used:
@@ -279,6 +270,34 @@ Footer:
 
 
 # TESTING
+## Manual Testing
+Manual testing was conducted on the 15th December, 2023. The following table lists the results of feature testing, browser compatibility and responsiveness.
+
+
+### Feature testing:
+| Feature        | Test Case           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Logo      | Click the logo from each page | User successfully taken to the home page|
+| Navbar: Home      | Click on the link on each page     |   User successfully taken to the landing page |
+| Navbar: Cake of the Month link | Click on the link on each page      |    User successfully taken to the correct page |
+| Navbar: Baking Tips link |  Click on the link on each page      |    User successfully taken to the correct page |    
+| Navbar: Sign Up | Click on the link       |  Modal successfully opens    |
+| Cake of the month "Read More" button | click the link     |    User successfully taken to appropriate page |
+| Baking Tips "Read More" button | Click on the link      |    User successfully taken to appropriate page |
+| Call-to-Action | Click on the sign-up button      |    Modal successfully opens |
+| Sign-up Form | Submit an empty form      |    Form successfully submitted |
+| Jump to Recipe" button | click the button      |    User successfully taken to recipe section |
+| Question and Answers Accodion | Click an item to display the answer     |    $nswer cards successfully expand and collapse |
+| Social media links | click a social media icon     |    Clicking the icon successfully opens a new tab linking to the relevant social media page |
+
+### Browser Compatibility:
+| Browser Tested       | Intended appearence          | intended Responsiveness  |
+| ------------- |:-------------:| -----:|
+| Chrome      | Good | Good |
+| Mozilla      | Good      |   Good |
+| Safari | Good      |    Good |
+| Edge | Good      |    Good |
+
 
 # DEPLOYMENT
 To launch the project, GitHub Pages was employed as the deployment platform. The deployment process involves the following steps:
