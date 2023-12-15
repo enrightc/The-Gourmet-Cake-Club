@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
@@ -24,7 +23,7 @@ header {
 
 /* ----------------------------------------- Navbar */
 .nav-background-dark {
-   background-color: #000000;
+    background-color: #000000;
 }
 
 .navbar .navbar-toggler {
@@ -51,13 +50,16 @@ li {
 
 /* ----------------------------------------- special paddings/margins/text */
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
     font-family: 'Playfair Display', serif;
 }
 
 h1 {
-    font-size: 34px;    
+    font-size: 34px;
 }
 
 h2 {
@@ -155,8 +157,8 @@ td {
 .page-hero-container.baking-tips-hero {
     background: url("../images/baking-tips-hero-image.webp") no-repeat bottom center;
 }
-       
-    /* ----------------------------------------- Index.html */
+
+/* ----------------------------------------- Index.html */
 /* ----------------------------------------- Hero Title */
 .hero-title {
     color: white;
@@ -168,19 +170,22 @@ td {
     border-radius: 3%;
     text-align: center;
 }
+
 /* ----------------------------------------- About */
 .about {
-max-width: 1200px;
-margin: 77px auto;
+    max-width: 1200px;
+    margin: 77px auto;
 }
 
 /* ----------------------------------------- Cake of the Month section */
 .container-margin {
     margin: 77px auto;
 }
+
 .cake-month-image {
     width: 100%;
-    height: 100%;
+    height: 343px;
+    object-fit: cover;
 }
 
 .reverse {
@@ -192,10 +197,11 @@ margin: 77px auto;
 .baking-tips-container {
     margin: 77px auto;
 }
-    
+
 .baking-tips-image {
     width: 100%;
-    height: 100%;  
+    height: 343px;
+    object-fit: cover;
 }
 
 /* ----------------------------------------- Callout */
@@ -226,7 +232,7 @@ margin: 77px auto;
     border-radius: 3%;
 }
 
-    /* ----------------------------------------- Cake of the Month Page */
+/* ----------------------------------------- Cake of the Month Page */
 /* ----------------------------------------- Cake of the month bio */
 .cake-info {
     background-color: #efebeb;
@@ -263,7 +269,7 @@ margin: 77px auto;
     padding: 25px;
 }
 
-    /* ----------------------------------------- Baking Tips */
+/* ----------------------------------------- Baking Tips */
 /* ----------------------------------------- Accordion */
 .tips-accordion {
     margin-top: 50px;
@@ -300,8 +306,7 @@ margin: 77px auto;
     color: white;
 }
 
-.cta-btn:hover 
-.cta-btn:active,
+.cta-btn:hover .cta-btn:active,
 .cta-btn:focus,
 .cta-btn:active:focus {
     background-color: #595858;
@@ -372,4 +377,3 @@ footer {
 .social-links li a i:hover {
     color: black;
 }
-
