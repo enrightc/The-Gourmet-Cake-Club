@@ -298,6 +298,13 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | Safari | Good      |    Good |
 | Edge | Good      |    Good |
 
+### Responsivness Test:
+| Device Tested | Site Responsiveness >700px | Site Responsiveness <699px | Renders as Expected |
+| ------------- | --------------------------- | --------------------------- | ------------------- |
+| iPhone 12      |N/A                | Responsive                 | Yes                 |
+| iPad 12        | Responsive                 | N/A                 | Yes                 |
+| Desktop 1024px | Responsive                 | N/A                 | Yes                 |
+
 
 # DEPLOYMENT
 To launch the project, GitHub Pages was employed as the deployment platform. The deployment process involves the following steps:
