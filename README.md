@@ -5,7 +5,7 @@ The Gourmet Cake Club provides a go-to destination for an exquisite assortment o
 Visit Gourmet Cake Clubs website here [The Gourmet Cake Club](https://enrightc.github.io/Gourmet-Cake-Club-Website/)
 
 ![The Gourmet Cake Club Am I Responsive Image](docs/readme_images/am-i-responsive.png)
-<p align="center">Am I Responsive? Source: https://ui.dev/amiresponsive</p>
+
 
 ## Overall Website Aim
 
@@ -112,8 +112,11 @@ The Gourmet Cake Club website has undergone thoughtful design reviews from frien
 
 # FEATURES
 
-- **Navigation:**
-  - The website features a fully responsive navigation bar, showcasing links to 'Home,' 'Cake of the Month,' and 'Baking Tips.' Positioned at the center of the navigation bar, these links provide easy access to different sections of the website.
+## Existing Features:
+The following information provides an overview of the features found within the website. 
+
+### **Navigation:**
+  - The website features a fully responsive navigation bar located at the top opf the website, showcasing links to 'Home,' 'Cake of the Month,' and 'Baking Tips.' Positioned at the center of the navigation bar, these links provide easy access to different sections of the website.
   - The navigation bar maintains a fixed position, ensuring visibility at the top of the page as users scroll. Adjacent to the navigation bar's left side is a discreet yet site logo, serving as a direct link to the home page.
   - On the right side of the navigation bar, a 'Sign Up' link calls users to subscribe for monthly updates. Clicking this link opens a modal where users can submit their email addresses.
   - For a seamless experience on smaller devices, the navigation bar gracefully collapses into a hamburger menu. The website logo remains on the left, and to the right, the hamburger menu icon appears. Activating the hamburger menu expands the navigation options, now including the 'Sign Up' link at the end of the list. This thoughtful design ensures easy navigation and engagement, regardless of the user's device.
@@ -121,26 +124,60 @@ The Gourmet Cake Club website has undergone thoughtful design reviews from frien
 Navigation bar on large devices:
 ![Navigation bar](docs/readme_images/navigation-bar.png)
 
-Navigation bar on mobile devices:
-![Navigation bar on mobile](docs/readme_images/navigation-bar-mobile.png)
 
-- **Landing Page:**
-  - The landing page boasts a captivating hero section featuring a striking background image with text overlay, elegantly presenting the website's title and tagline.
-  - Sections on the landing page provide direct links to other pages (Cake of the Month and Baking Tips). The "Cake of the Month" feature is designed for regular updates, to encourage visitors to return monthly.
-  - A further call-to-action can be found at the bottom of the landing page. Clicking the sign-up button triggers the same modal as seen in the navigation bar.
+Navigation bar on smaller devices:
+<p align="center">
+  <img src="docs/readme_images/navigation-bar-mobile.png"/>
+</p>
 
-Call to Action:
+### **Hero Images:**
+On every page, a striking hero image takes center stage just beneath the navigation bar, immediately capturing the visitor's attention. Notably, each page features a distinct hero image carefully chosen to prevent visitor fatigue. This deliberate choice aims to create a dynamic and visually engaging experience for users, ensuring that as they navigate through various sections, they are met with fresh and relevant visuals. The use of different hero images not only adds aesthetic diversity but also serves to highlight the unique content and theme of each page, making the overall browsing experience more captivating and enjoyable.
+
+### **Landing Page:**
+- **Hero**
+  - The landing page boasts a captivating hero section directly below the navigation bar. The hero features a striking background image with text overlay, elegantly presenting the website's title and tagline.
+
+Landing page hero:
+![Navigation bar](docs/readme_images/hero-image.png)
+
+- **About**
+  - Directly beneath the hero the website visitor will find a "welcome" message that provides a brief overview of the website and the content that can be found within.
+
+- **Features**
+  - Within the main body of the landing page website visitors will find sections that relate to the pages of the website ("Cake of the Month" and "Baking Tips"). Each section contains a brief description on what the user will find if they explore the pages and a "Read More" link that will direct them to the relevant page. It is intended that the "Cake of the Month" image and description will be updated each month with the new monthly cake feature. 
+
+Welcome message and features:
+![Navigation bar](docs/readme_images/landing-page-features.png)
+ 
+
+ - **Call To Action**
+  - At the bottom of the page visitirs will find a call-to-action. Clicking the sign-up button triggers the same modal as seen in the navigation bar.
+
+Call-to-Action:
 ![Call to action screenshot](docs/readme_images/cta-screenshot.png)
 
-- **Cake of the Month Page**
-  - This page is regularly updated with a new "Cake of the Month," maintaining a consistent layout for simplicity and familiarity for returning users.
-  - Below the hero section, a info box provides details on preparation time, servings, and the skill level required for the featured cake. A convenient "Jump to Recipe" button allows users to skip the cake description and head straight to the recipe and ingredients.
-  - Visitors to this page will discover a cake description image, of the finished cake, a comprehensive list of ingredients, the step-by-step recipe, and any additional notes.
+### **Cake of the Month:**
+  - This page will be regularly updated with a new "Cake of the Month," whilst maintaining a consistent layout for simplicity and familiarity for returning users.
+  - Below the hero section, a info box provides visitors with a quick overview detailing preparation time, servings, and the skill level required for the featured cake. Note a convenient "Jump to Recipe" button allows users to skip the cake description and head straight to the recipe and ingredients.
+  - Beneath the overview box visitors will discover a cake description, image of the finished cake, a comprehensive list of ingredients, the step-by-step recipe, and any additional notes.
+  - On large devices the ingredients and recipe are provided bide-by-side to allow the visitor to easily reference the content of both without the need for scrolling. 
 
-- **Baking Tips Page**
-  - The accordion-style layout provides a user-friendly experience. Click on a question to reveal the corresponding answer. Clicking on a different question will collapse the open answer and reveal the new one.
+Info box and cake description on the "Cake of the month" page (Note the "Jump to Recipe" button that allows visitors to skip past the cake description and get straight to the recipe):
+![Call to action screenshot](docs/readme_images/info-box-image.png)
 
-- **Sign Up**
+Ingredients and Recipe:
+![Call to action screenshot](docs/readme_images/recipe-screenshot.png)
+
+### **Baking Tips Page**
+  - On this page visitors can find answers to some of the most common bake ckking related questions.
+  - A Bootstrap accordion component has been used to organise the conent within callapsible items. This particular accordion allows the display of one collapsed item a time. 
+  - The accordion proves a user-friendly experience. Visitors can click on a question to reveal the answer.
+
+Baking Tips Accordion:
+![Call to action screenshot](docs/readme_images/accordion-image.png)
+
+
+### **Sign Up**
   - Subtly located on the right side of the navigation bar, users will consistently find a discreet yet accessible sign-up link throughout the website. This strategic placement ensures visibility without distracting users from the content.
   - In addition to the navigation bar link, a second sign-up invitation can be found in the call-to-action section at the bottom of the homepage. This reinforces the opportunity for visitors to subscribe and stay connected.
   - Clicking on either sign-up link will seamlessly open a modal, providing users with a simple and user-friendly interface. Within the modal, users are prompted to enter their name and email address, facilitating quick and seamless registration for monthly newsletters. The modal can be closed by clicking anywhere on the web page.
@@ -149,18 +186,18 @@ Call to Action:
 Sign-up Modal:
 ![Sign-up modal screenshot](docs/readme_images/sign-up-modal-screenshot.png)
 
-- **Footer**
+### **Footer**
   - The footer section includes links to The Gourmet Clubs social media pages (Facebook, Instagram, Twitter and Youtube).
   - The links will open in a new tab for user convenience.
-  - Clicking on either sign-up link will seamlessly open a modal, providing users with a simple and user-friendly interface. Within the modal, users are prompted to enter their name and email address, facilitating quick and seamless registration for monthly newsletters. The modal can be closed by clicking anywhere on the web page.
   - The footer serves as a valuable resource, enabling users to effortlessly find and follow The Gourmet Cake Club across different social channels.
 
 Footer:
 ![Footer screenshot](docs/readme_images/footer-screenshot.png)
 
-## Future Website Enhancements
+## Future Website Enhancements:
  **Archive Cake Recipes**
   - As each month passes and a new monthly cake is added the previous cake of the month will be added to a recipe archive that will be maintained on an additional web page. 
+  - Visitors will be able to search this archive for their favourite recipes.
   
 **Build a Community**
 - The website aims to create a community of cake lovers, fostering engagement and interaction among users through comment sections on recipes.
@@ -192,7 +229,7 @@ Footer:
   - Identified that the "fixed" value in the background property was causing the rendering issue.
   - Removed the "fixed" value, resolving the rendering problem but sacrificing the parallax effect.
 
-### Known Bugs
+### Known Bugs (unresolved)
 
 #### Navigation Bar Overlaps Section Headings
 
@@ -258,7 +295,7 @@ Click on 'Settings' located near the top of the page.
 - Chocolate Nutella Cake recpie was sourced from [Baked by an introvert](https://www.bakedbyanintrovert.com/nutella-cake/).
 
 ### Images
-- Home page images were obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
+- The home page hero image was obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
 - All other images weer created using ChatGPT DALL.E.
 
 
