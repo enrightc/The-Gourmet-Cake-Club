@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
-
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -26,10 +24,8 @@ header {
 
 /* ----------------------------------------- Navbar */
 .bg-dark {
-   background-colour: #343a40
+   background-color: #343a40;
 }
-
-#595858
 
 .navbar {
     background-color: white;
@@ -52,16 +48,10 @@ a:hover {
     color: white;
 }
 
-
-
 .nav-item,
 li {
     margin-bottom: 0;
 }
-
-/* ----------------------------------------- Colors */
-
-
 
 /* ----------------------------------------- special paddings/margins/text */
 
@@ -105,7 +95,6 @@ p {
     margin-bottom: 20px;
 }
 
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -137,8 +126,7 @@ td {
     padding: 10px;
 }
 
-/* ----------------------------------------- Home Hero */
-
+/* ----------------------------------------- Heroes */
 .hero-container {
     background: url("../images/hero.webp") no-repeat top center;
     height: 90vh;
@@ -152,18 +140,6 @@ td {
     position: relative;
 }
 
-.hero-title {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-    max-width: 900px;
-    background: rgb(0 0 0 / 68%);
-    padding: 70px;
-    border-radius: 3%;
-    text-align: center;
-}
-
-/* ----------------------------------------- Page Hero */
 .page-hero-container {
     height: 50vh;
     background-size: cover;
@@ -183,15 +159,26 @@ td {
 .page-hero-container.baking-tips-hero {
     background: url("../images/baking-tips-hero-image.webp") no-repeat bottom center;
 }
-
+       
+    /* ----------------------------------------- Index.html */
+/* ----------------------------------------- Hero Title */
+.hero-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    max-width: 900px;
+    background: rgb(0 0 0 / 68%);
+    padding: 70px;
+    border-radius: 3%;
+    text-align: center;
+}
 /* ----------------------------------------- About */
-
 .about {
 max-width: 1200px;
 margin: 77px auto;
 }
 
-/* ----------------------------------------- Cake of the Month */
+/* ----------------------------------------- Cake of the Month section */
 .container-margin {
     margin: 77px auto;
 }
@@ -206,15 +193,13 @@ margin: 77px auto;
 }
 
 /* ----------------------------------------- Baking Tips section */
-
 .baking-tips-container {
     margin: 77px auto;
 }
     
 .baking-tips-image {
     width: 100%;
-    height: 100%;
-    
+    height: 100%;  
 }
 
 /* ----------------------------------------- Callout */
@@ -247,7 +232,7 @@ margin: 77px auto;
 
     /* ----------------------------------------- Cake of the Month Page */
 /* ----------------------------------------- Cake of the month bio */
-.cake-stats {
+.cake-info {
     background-color: #efebeb;
 }
 
@@ -282,9 +267,6 @@ margin: 77px auto;
     padding: 25px;
 }
 
-/* ----------------------------------------- Notes */
-
-
     /* ----------------------------------------- Baking Tips */
 /* ----------------------------------------- Accordion */
 .tips-accordion {
@@ -306,8 +288,6 @@ margin: 77px auto;
 .btn-link:hover {
     color: white;
 }
-
-
 
 /* ----------------------------------------- Buttons */
 .cta-btn {
@@ -368,8 +348,6 @@ margin: 77px auto;
 .btn-sign-up-btn:active:focus {
     color: white;
 }
-
-
 
 /* ----------------------------------------- Footer */
 footer {

@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes. "
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/c3713995f0.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c3713995f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://ka-f.fontawesome.com">
     <title>Gourmet Cake Club</title>
-    
   </head>
 
   <body>
@@ -36,11 +26,13 @@
         
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mx-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="cake-of-the-month.html">Cake of the Month</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="cake-of-the-month.html">Cake of the Month</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="baking-tips.html">Baking Tips</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link sign-up-link" data-toggle="modal"
-                            data-target="#signUpModal" href="#">Sign Up</a></li>
+                    <li 
+                        class="nav-item mr-2 d-block d-sm-none"><a class="nav-link sign-up-link" data-toggle="modal"
+                        data-target="#signUpModal" href="#">Sign Up</a>
+                    </li>
                 </ul>
             </div>
             <div class="d-none d-md-block">
@@ -54,13 +46,13 @@
         <div role="img" aria-label="A professional chef wearing a pristine white chef's uniform and hat, is meticulously preparing a chocolate Nutella cake ">
         </div>
             <div class=container>
-                <div class="row mt-5 cake-stats">
+                <div class="row mt-5 cake-info">
                     <div class="col-12 col-md-6">
                         <h1 class="page-title">Chocolate Nutella Cake</h1>
                         <p>Indulge in the rich and decadent flavours of our featured cake this month<p>
                         <p><a class="btn btn-sm feature-btn mt-5" href="#recipe" aria-label="Go to Receipe section">Jump to Recipe →</a></p>
                     </div>
-                    <div class="col-12 col-md-6 cake-month-text my-5">
+                    <div class="col-12 col-md-6 my-5">
                         <table style="width:100%">
                             <tr>
                                 <td><i class="fa-regular fa-clock" aria-hidden="true"></i> Prep time: 40 mins</td>
@@ -81,7 +73,7 @@
     <div class="container cake-month-container">
         <section class="cake-month-bio">
             <div class="row">
-                <div class="col-12 col-md-6 bio-text  my-5">
+                <div class="col-12 col-md-6 my-5">
                     <h2>Decadence Defined: Unveiling the Nutella Delight Cake</h2>
                     <p>
                         Indulge in the sublime world of our Nutella Delight Cake – a harmonious blend of rich, moist chocolate layers and velvety Nutella buttercream. This opulent dessert promises an unrivaled experience that invites all cake enthusiasts to savor.
@@ -95,7 +87,7 @@
                 </div>
                 <div class="col-12 col-md-6 my-5">
                     <img class="chocolate-cake-image" src="assets/images/chocolate-cake.webp" 
-                        alt="A beautifully decorated chocolate nutella cake" width="600" height="auto">
+                        alt="A beautifully decorated chocolate nutella cake" width="600" height="600">
                 </div>
             </div>
         </section>
@@ -202,8 +194,8 @@
     </div>
     <!-- /.Ingredients and recipe -->
 
-
-    <div class="container container-notes container-margin">
+    <!-- Notes-->
+    <div class="container container-margin">
         <section class="baking-success">
             <h2>Notes</h2>
             <h3>Tips for Baking Success</h3>
@@ -244,9 +236,10 @@
             </ol>
         </section>
     </div>
+    
 
-    <div class="container container-planning-ahead container-margin">
-        <section class="baking-success">
+    <div class="container container-margin">
+        <section class="planning-ahead">
             <h3>Planning ahead</h3>
             <ol>
                 <li>
@@ -276,44 +269,46 @@
             </ol>
         </section>
     </div>
+    <!-- /.Notes -->
 
     <!-- Modal-->
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
-                            your inbox</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
-                                    required>
-                            </div>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
+                        your inbox</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
+                                required>
+                        </div>
         
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
-                                    placeholder="Enter email" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                    else.</small>
-                            </div>
-                            <div>
-                                <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club</p>
-                            </div>
-                            <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
-                        </form>
-                    </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div>
+                            <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club</p>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- /.Modal -->
+    </div>
+    <!-- /.Modal -->
     
+    <!-- footer-->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -355,21 +350,17 @@
             </div>
         </div>
     </footer>
+    <!-- /.footer -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
   </body>
 </html>
