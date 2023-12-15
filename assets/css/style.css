@@ -23,12 +23,8 @@ header {
 }
 
 /* ----------------------------------------- Navbar */
-.bg-dark {
-   background-color: #343a40;
-}
-
-.navbar {
-    background-color: white;
+.nav-background-dark {
+   background-color: #000000;
 }
 
 .navbar .navbar-toggler {
@@ -351,7 +347,7 @@ margin: 77px auto;
 
 /* ----------------------------------------- Footer */
 footer {
-    background-color: #343a40;
+    background-color: #000000;
     color: white;
     min-height: 100px;
     text-align: center;

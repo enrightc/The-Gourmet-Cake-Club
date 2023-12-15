@@ -305,6 +305,20 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | iPad 12        | Responsive                 | N/A                 | Yes                 |
 | Desktop 1024px | Responsive                 | N/A                 | Yes                 |
 
+## Validator Testing
+### HTML
+To test the markup validity [HTML Validator](https://validator.w3.org/) was run on each of the three pages of The Gourmet Cake Club website. There were no errors or warnings detected.
+
+### CSS
+A [CSS Validator](https://validator.w3.org/) was used to check the validity of the CSS code of the website. There were no errors or warnings detected.
+
+### Light House Analysis
+Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best performance and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordinglt to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
+
+
+
+
+
 
 # DEPLOYMENT
 To launch the project, GitHub Pages was employed as the deployment platform. The deployment process involves the following steps:
