@@ -313,11 +313,29 @@ To test the markup validity [HTML Validator](https://validator.w3.org/) was run 
 A [CSS Validator](https://validator.w3.org/) was used to check the validity of the CSS code of the website. There were no errors or warnings detected.
 
 ### Light House Analysis
-Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best performance and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordinglt to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
+Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best perfopractice and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordingly to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
 
+The Lighthouse analysis was run on both mobile and desktop devices and the results are illustrated below:
 
+- Desktop:
+  - index.html
+  ![Index.html desktop analysis](docs/readme_images/index-desktop.png)
 
+  - cake-of-the-month.html
+  ![Cake of the month desktop analysis](docs/readme_images/cake-month-desktop.png)
 
+  - baking-tips.html
+  ![Baking tips desktop analysis](docs/readme_images/tips-desktop.png)
+
+- Mobile:
+  - index.html
+  ![Index.html mobile analysis](docs/readme_images/index-mobile.png)
+
+  - Cake of the Month page
+  ![Cake of the Month mobile analysis](docs/readme_images/cake-month-mobile.png)
+
+   - Baking Tips page
+  ![Baking Tips mobile analysis](docs/readme_images/tips-mobile.png)
 
 
 # DEPLOYMENT
