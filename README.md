@@ -1,8 +1,6 @@
 # THE GOURMET CAKE CLUB
 ![The Gourmet Cake Club Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
-[Fonts](#Fonts)
-
 # Table of Contents
 - [THE GOURMET CAKE CLUB](#the-gourmet-cake-club)
 - [Table of Contents](#table-of-contents)
@@ -408,10 +406,10 @@ The Lighthouse analysis was run on both mobile and desktop devices and the resul
   Mobile: index.html
   ![Index.html mobile analysis](docs/readme_images/index-mobile.png)
 
-Mobile: Cake of the Month page
+  Mobile: cake-of-the-month.html
   ![Cake of the Month mobile analysis](docs/readme_images/cake-month-mobile.png)
 
-Mobile: Baking Tips page
+Mobile: baking.tips.html
   ![Baking Tips mobile analysis](docs/readme_images/tips-mobile.png)
 
 
