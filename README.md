@@ -234,21 +234,33 @@ Footer:
   - Reviewed CSS properties for the background image.
   - Identified that the "fixed" value in the background property was causing the rendering issue.
   - Removed the "fixed" value, resolving the rendering problem but sacrificing the parallax effect.
-
-### Known Bugs (unresolved)
+  -
 
 #### Navigation Bar Overlaps Section Headings
 
-- Issue: When clicking on a link to jump to a specific section of the page, the fixed navigation bar overlaps the headings of that section, making them partially or entirely hidden from view.
+- Issue: When clicking on a link to jump to a specific section of the page, the fixed navigation bar overlaps the headings of that section, making them entirely hidden from view.
 - Description: The fixed navigation bar does not account for the presence of section headings, causing a visual obstruction when navigating to specific sections. This affects the user experience as essential information becomes concealed, impacting the clarity of the content.
 - Expected Behavior: When the user uses a link to navigate to a section of the page the section sub-headings should be visible without any overlap or obstruction from the navigation bar.
 - Steps to Reproduce:
   - Navigate to any page with multiple sections.
   - Click on a link in the fixed navigation bar to jump to a specific section.
 - investigation and Solution:
-  - Added padding to the top of the container. Now when the user clociks the links the relevant headings are visible.
-    - - Investigation and Solution:
-  - Padding space was added to thhe top of the crcipe container. This created space so that when the "jump to recipe" button is clicked the titles are now visible.
+  - Added padding to the top of the container. Now when the user clicks the links the relevant headings are visible.
+
+### Known Bugs (unresolved)
+
+#### Hover State Reset After Modal Closure
+
+Issue: After clicking the call-to-action button on the bottom of the landing page that opens a modal and subsequently closing the modal, the button's hover state is not reset immediately.
+Description: The hover state of the button fails to reset after closing the modal, resulting in the button not displaying the expected blue color when hovered over. However, clicking elsewhere on the page resolves this issue, and the button regains its proper hover behavior.
+Expected Behavior: The buttons hover state should reset immediately after closing the modal, providing a seamless and expected user experience.
+Steps to Reproduce:
+Click the button to open the modal.
+Close the modal.
+Hover over the button and observe the hover state.
+Note that the hover state may not reset as expected.
+Click elsewhere on the page.
+Hover over the button again, and the hover state should now display correctly.
 
 # Technology
 
@@ -258,7 +270,7 @@ Footer:
 
 # Frameworks, Libraries and Programs Used
 - Bootstrap (version 4.1) 
-  - For website design and development.
+  - For website design and developmentof elements such as nabvbr, layouts and the accordion.
 - Google Fonts 
   - For importing font styles.
 - Font Awesome
@@ -297,9 +309,9 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | Cake of the month "Read More" button | click the link     |    User successfully taken to appropriate page |
 | Baking Tips "Read More" button | Click on the link      |    User successfully taken to appropriate page |
 | Call-to-Action | Click on the sign-up button      |    Modal successfully opens |
-| Sign-up Form | Submit an empty form      |    Form successfully submitted once all fields are completed |
+| Sign-up Form | Submit an empty form      |    Form successfully submitted once all fields are completed. User is notified of any blank fields |
 | Jump to Recipe" button | click the button      |    User successfully taken to recipe section |
-| Question and Answers Accodion | Click an item to display the answer     |    $nswer cards successfully expand and collapse |
+| Question and Answers Accodion | Click an item to display the answer     |    Answer cards successfully expand and collapse |
 | Social media links | click a social media icon     |    Clicking the icon successfully opens a new tab linking to the relevant social media page |
 
 ### Browser Compatibility:
@@ -363,7 +375,7 @@ Click on 'Settings' located near the top of the page.
 - Chocolate Nutella Cake recpie was sourced from [Baked by an introvert](https://www.bakedbyanintrovert.com/nutella-cake/).
 
 ### Images
-- The home page hero image was obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
+- The home page hero and call-to-action background  and the website logo images were obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
 - All other images weer created using ChatGPT DALL.E.
 
 
