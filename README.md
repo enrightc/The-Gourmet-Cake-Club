@@ -246,6 +246,7 @@ Footer:
   - Click on a link in the fixed navigation bar to jump to a specific section.
 - investigation and Solution:
   - Added padding to the top of the container. Now when the user clicks the links the relevant headings are visible.
+  
 
 ### Known Bugs (unresolved)
 
@@ -291,6 +292,7 @@ Hover over the button again, and the hover state should now display correctly.
     - Usef for hosting the deployed website.
 - Codeanywhere
   - Used for development as a cloud-based Integtated Development Evvironment (IDE).
+  
 
 
 # TESTING
@@ -389,6 +391,10 @@ Click on 'Settings' located near the top of the page.
 [Accessed 21st Nov 2023]
 - For help with Aria-labels and background images [Alternate Text for Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 [Accessed 7th Dec 2023]
+
+- Favicon [W3 School](https://www.w3schools.com/html/html_favicon.asp) [Accessed 17th December, 2023]
+- Lazy image loading [W3 School](https://www.w3schools.com/tags/att_img_loading.asp) [Accessed 17th December, 2023]
+  
 
 ### Acknowledgements
 Many Thanks to my mentor, Antonio Rodriguez, for his help and advice. Also to Alan Busell (Code Institute), James Williams and Poppy McLaughlin for their support and kindly reviewing my website. 
