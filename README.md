@@ -1,6 +1,6 @@
 # The Gourmet Cake Club
 
-The Gourmet Cake Club provides a go-to destination for an exquisite assortment of beautifully crafted cakes. Explore our monthly feature, the "Cake of the Month," which features a delightful cake with detailed recipes and ingredients for a tempting experience. If you're hungry for more, sign up to receive additional sweet surprises directly to your inbox. Explore our "Baking Tips" section to find answers to common cake-making queries. Join us in celebrating the art of baking with each visit.
+The Gourmet Cake Club provides a go-to destination for an exquisite assortment of beautifully crafted cakes. Explore the monthly feature, the "Cake of the Month", which features a delightful cake with detailed recipes and ingredients for a tempting experience. If you're hungry for more, sign up to receive additional sweet surprises directly to your inbox. Explore the "Baking Tips" section to find answers to common cake-making queries. Join us in celebrating the art of baking with each visit.
 
 Visit Gourmet Cake Clubs website here [The Gourmet Cake Club](https://enrightc.github.io/Gourmet-Cake-Club-Website/)
 
@@ -13,17 +13,16 @@ The primary aim of the Gourmet Cake Club website is to delight cake enthusiasts 
 
 ## External User Goals
 
-- Discover Delicious Recipes: Users will want to explore a variety of cake recipes, including the unique “Cake of the month”
-- Learn Baking Techniques: Through the "Baking Tips"" section users can acquire baking tips and techniques to improve their cakes.
 - Access Cake of the Month Features: Users are excited to discover and potentially try the featured Cake of the Month.
+- Learn Baking Techniques: Through the "Baking Tips"" section users can acquire baking tips and techniques to improve their cakes.
 - Sign-Up: Users can sign up to the monthly newsletter to receive more cake recipes straight to their inbox.
 
 ## Website Owners Goals
 
-- Generate Newsletter Subscriptions: The site owner wants users to sign up for a newsletter or subscription to receive monthly cake recipes.
+- Generate Newsletter Subscriptions: The site owner wants users to sign up for a newsletter subscription to receive monthly cake recipes.
 - Showcase Cake Expertise: The site aims to establish itself as a go-to source for cake-related information, showcasing the owner's expertise.
 - Increase Website Traffic: The site owner desires increased traffic to the website through engaging content and marketing efforts.
-- Encourage Social Media Sharing: The owner hopes users will share their favourite recipes, blog posts, or Cake of the Month features on social media, contributing to the website's visibility.
+- Encourage Social Media Sharing: The owner hopes users will share their favourite recipes, or Cake of the Month features on social media, contributing to the website's visibility.
   
 - ## User Story
 - First-time User
@@ -34,7 +33,7 @@ The primary aim of the Gourmet Cake Club website is to delight cake enthusiasts 
   
 - Returning User
 
-    - As a returning user, I want to easily find the featured Cake of the Month that aligns with my taste, providing a delightful experience as I discover new and exciting recipes.
+    - As a returning user, I want to easily find the featured Cake of the Month, providing a delightful experience as I discover new and exciting recipes.
     - As a returning user, I seek clear and concise instructions for each cake recipe, including details about the ingredients and baking techniques, enhancing my baking skills.
 
 - Frequent User
@@ -44,16 +43,23 @@ The primary aim of the Gourmet Cake Club website is to delight cake enthusiasts 
 # DESIGN
 
 ## Wireframes
+Prior to commencing the website coding process, comprehensive wireframes were produced for each page using Figma - a design tool used for creating user interfaces, prototypes, and wireframes.  These wireframes served as the initial blueprints, providing a visual roadmap for the website's layout and structure on both desktop and mobile devices.
 
-[Homepage](docs/wireframes/index.html.png)
+It's important to note that while the final web pages evolved from these early plans, some deviations were intentionally made to enhance the user experience and align better with the project's goals.
 
-[Cake of the Month](docs/wireframes/cake-of-the-month.png)
+Despite the Recipes page not making its way into the final product, the wireframe for this section has been retained for reference. Similarly, the Sign-up page is absent in the final product, with a streamlined sign-up option conveniently accessible through the navigation bar on every page, as well as the call-to-action section on the home page.
 
-[Recipes](docs/wireframes/recipes.png)
+This iterative process allowed for flexibility in adapting to evolving project requirements, ultimately contributing to the development of a more refined and user-friendly website.
 
-[sign-up](docs/wireframes/sign-up.png)
+[Homepage (Desktop and mobile)](docs/wireframes/index.html.png)
 
-[Tips](docs/wireframes/tips.png)
+[Cake of the Month (Desktop and mobile)](docs/wireframes/cake-of-the-month.png)
+
+[Recipes (Desktop and mobile)](docs/wireframes/recipes.png)
+
+[sign-up (Desktop and mobile)](docs/wireframes/sign-up.png)
+
+[Tips (Desktop and mobile)](docs/wireframes/tips.png)
 ## Imagery
 
 The selection of imagery for the Gourmet Cake Club website is intentional and contributes to the overall aesthetic of the site. The goal is to convey an impression of elegance, professionalism, and cleanliness. To achieve this, images have been carefully selected featuring beautifully decorated cakes showcased against clean, professional, and sophisticated environments.
@@ -76,9 +82,9 @@ This deliberate choice of colours aims to create a user-friendly and aesthetical
 
 The Gourmet Cake Club website pays careful attention to typography to enhance the overall visual appeal and readability of the content. All fonts are sourced from Google Fonts.
 
-- **Headings:** Using the /Playfair Display' font for headings imparts a subtle and tasteful appearance, adding an elegant touch to the presentation of key information.
+- **Headings:** Using the "Playfair Display" font for headings imparts a subtle and tasteful appearance, adding an elegant touch to the presentation of key information.
 
-- **Paragraphs:** To ensure ease of reading the 'Roboto' font is used for paragraph text. This font contributes to a comfortable reading experience across various content sections.
+- **Paragraphs:** To ensure ease of reading the "Roboto" font is used for paragraph text. This font contributes to a comfortable reading experience across various content sections.
 
 - **Backup Font:** As a precautionary measure, the Sans Serif font is implemented as a backup. In the event that the primary fonts are not imported correctly, it will ensure a consistent and legible presentation of text throughout the website is maintained.
 
@@ -90,7 +96,7 @@ Ensuring a positive and inclusive user experience is a priority for the Gourmet 
 
 - **Colour Contrast:** The website's primary colour scheme of black and white is intentionally selected to provide a strong contrast, enhancing readability for all users. This ensures that text and content stand out clearly against the background, promoting a visually accessible experience.
 
-- **Font Selection:** Simplicity and readability has been prioritised in font choices. The selected fonts, including 'Playfair Display' for headings and 'Roboto' for paragraphs, are chosen for their clear and straightforward design. This enhances the overall legibility of the content for users with varying visual abilities.
+- **Font Selection:** Simplicity and readability has been prioritised in font choices. The selected fonts, including "Playfair Display" for headings and "Roboto" for paragraphs, are chosen for their clear and straightforward design. This enhances the overall legibility of the content for users with varying visual abilities.
 
 By incorporating these design considerations, The Gourmet Cake Club website creates an accessible and welcoming space for all visitors to explore with ease.
 
@@ -116,10 +122,10 @@ The Gourmet Cake Club website has undergone thoughtful design reviews from frien
 The following information provides an overview of the features found within the website. 
 
 ### **Navigation:**
-  - The website features a fully responsive navigation bar located at the top opf the website, showcasing links to 'Home,' 'Cake of the Month,' and 'Baking Tips.' Positioned at the center of the navigation bar, these links provide easy access to different sections of the website.
-  - The navigation bar maintains a fixed position, ensuring visibility at the top of the page as users scroll. Adjacent to the navigation bar's left side is a discreet yet site logo, serving as a direct link to the home page.
-  - On the right side of the navigation bar, a 'Sign Up' link calls users to subscribe for monthly updates. Clicking this link opens a modal where users can submit their email addresses.
-  - For a seamless experience on smaller devices, the navigation bar gracefully collapses into a hamburger menu. The website logo remains on the left, and to the right, the hamburger menu icon appears. Activating the hamburger menu expands the navigation options, now including the 'Sign Up' link at the end of the list. This thoughtful design ensures easy navigation and engagement, regardless of the user's device.
+  - The website features a fully responsive navigation bar located at the top of the website, showcasing links to "Home", 'Cake of the Month", and "Baking Tips", positioned at the center of the navigation bar, these links provide easy access to different pages of the website.
+  - The navigation bar maintains a fixed position, ensuring visibility at the top of the page as users scroll. Adjacent to the navigation bar's left side is a discreet site logo, serving as a direct link to the home page when clicked from any other page.
+  - On the right side of the navigation bar, a "Sign Up" link calls users to subscribe for monthly updates. Clicking this link opens a modal where users can submit their email addresses.
+  - For a seamless experience on smaller devices, the navigation bar gracefully collapses into a hamburger menu. When viewed on a small device The website logo remains on the left, and to the right, the hamburger menu icon appears. Activating the hamburger menu expands the navigation options, now including the "Sign Up" link at the end of the list. This thoughtful design ensures easy navigation and engagement, regardless of the user's device.
 
 Navigation bar on large devices:
 ![Navigation bar](docs/readme_images/navigation-bar.png)
@@ -135,7 +141,7 @@ On every page, a striking hero image takes center stage just beneath the navigat
 
 ### **Landing Page:**
 - **Hero**
-  - The landing page boasts a captivating hero section directly below the navigation bar. The hero features a striking background image with text overlay, elegantly presenting the website's title and tagline.
+  - The landing page boasts a captivating hero section directly below the navigation bar. The hero has a view height value of 90 meaning it takes up a large acrea of the device ccreen. The hero features a striking background image with text overlay, elegantly presenting the website's title and tagline. To enhance the visual impact, the hero on the landing page has a view height value set to 90, meaning it occupies a significant portion of the device screen. This intentional design choice ensures that visitors are greeted with a visually immersive experience, setting the tone for the rest of the website.
 
 Landing page hero:
 ![Navigation bar](docs/readme_images/hero-image.png)
@@ -151,16 +157,16 @@ Welcome message and features:
  
 
   **Call To Action**
-  - At the bottom of the page visitirs will find a call-to-action. Clicking the sign-up button triggers the same modal as seen in the navigation bar.
+  - At the bottom of the page visitirs will find a call-to-action. Clicking the "sign-up" button triggers the same modal as seen in the navigation bar.
 
 Call-to-Action:
 ![Call to action screenshot](docs/readme_images/cta-screenshot.png)
 
-### **Cake of the Month:**
-  - This page will be regularly updated with a new "Cake of the Month," whilst maintaining a consistent layout for simplicity and familiarity for returning users.
+### **Cake of the Month Page:**
+  - This page will be regularly updated with a new "Cake of the Month", whilst maintaining a consistent layout for simplicity and familiarity for returning users.
   - Below the hero section, a info box provides visitors with a quick overview detailing preparation time, servings, and the skill level required for the featured cake. Note a convenient "Jump to Recipe" button allows users to skip the cake description and head straight to the recipe and ingredients.
   - Beneath the overview box visitors will discover a cake description, image of the finished cake, a comprehensive list of ingredients, the step-by-step recipe, and any additional notes.
-  - On large devices the ingredients and recipe are provided bide-by-side to allow the visitor to easily reference the content of both without the need for scrolling. 
+  - On large devices the ingredients and recipe are provided side-by-side to allow the visitor to easily reference the content of both without the need for scrolling. 
 
 Info box and cake description on the "Cake of the month" page (Note the "Jump to Recipe" button that allows visitors to skip past the cake description and get straight to the recipe):
 ![Call to action screenshot](docs/readme_images/info-box-image.png)
@@ -178,7 +184,7 @@ Baking Tips Accordion:
 
 
 ### **Sign Up**
-  - Subtly located on the right side of the navigation bar, users will consistently find a discreet yet accessible sign-up link throughout the website. This strategic placement ensures visibility without distracting users from the content.
+  - Subtly located on the right side of the navigation bar, users will consistently find a discreet yet accessible "Sign Up" link visible throughout the website. This strategic placement ensures visibility without distracting users from the content.
   - In addition to the navigation bar link, a second sign-up invitation can be found in the call-to-action section at the bottom of the homepage. This reinforces the opportunity for visitors to subscribe and stay connected.
   - Clicking on either sign-up link will seamlessly open a modal, providing users with a simple and user-friendly interface. Within the modal, users are prompted to enter their name and email address, facilitating quick and seamless registration for monthly newsletters. The modal can be closed by clicking anywhere on the web page.
   - The sign-up link aims to be noticeable and easily accessible, yet unobtrusive, allowing users to engage with the content seamlessly. This thoughtful approach ensures a pleasant and non-intrusive user experience.
@@ -240,13 +246,15 @@ Footer:
   - Navigate to any page with multiple sections.
   - Click on a link in the fixed navigation bar to jump to a specific section.
 - investigation and Solution:
-  - Added padding to the top of the container. Now when the user clociks the links the relevant headings are visible. 
+  - Added padding to the top of the container. Now when the user clociks the links the relevant headings are visible.
+    - - Investigation and Solution:
+  - Padding space was added to thhe top of the crcipe container. This created space so that when the "jump to recipe" button is clicked the titles are now visible.
 
 # Technology
 
 ## Languages Used:
-- HTML
-- CSS
+- HTML: Employed for organising and presenting the site content.
+- CSS: Utilised for the styling and layout of the site.
 
 # Frameworks, Libraries and Programs Used
 - Bootstrap (version 4.1) 
@@ -267,6 +275,10 @@ Footer:
   - For website hosting.
 - W3C
   - Used for validating HTML and CSS.
+- Github pages
+    - Usef for hosting the deployed website.
+- Codeanywhere
+  - Used for development as a cloud-based Integtated Development Evvironment (IDE).
 
 
 # TESTING
@@ -285,7 +297,7 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | Cake of the month "Read More" button | click the link     |    User successfully taken to appropriate page |
 | Baking Tips "Read More" button | Click on the link      |    User successfully taken to appropriate page |
 | Call-to-Action | Click on the sign-up button      |    Modal successfully opens |
-| Sign-up Form | Submit an empty form      |    Form successfully submitted |
+| Sign-up Form | Submit an empty form      |    Form successfully submitted once all fields are completed |
 | Jump to Recipe" button | click the button      |    User successfully taken to recipe section |
 | Question and Answers Accodion | Click an item to display the answer     |    $nswer cards successfully expand and collapse |
 | Social media links | click a social media icon     |    Clicking the icon successfully opens a new tab linking to the relevant social media page |
@@ -298,7 +310,7 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | Safari | Good      |    Good |
 | Edge | Good      |    Good |
 
-### Responsivness Test:
+### Responsiveness Test:
 | Device Tested | Site Responsiveness >700px | Site Responsiveness <699px | Renders as Expected |
 | ------------- | --------------------------- | --------------------------- | ------------------- |
 | iPhone 12      |N/A                | Responsive                 | Yes                 |
@@ -313,28 +325,26 @@ To test the markup validity [HTML Validator](https://validator.w3.org/) was run 
 A [CSS Validator](https://validator.w3.org/) was used to check the validity of the CSS code of the website. There were no errors or warnings detected.
 
 ### Light House Analysis
-Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best perfopractice and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordingly to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
+Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best practice and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordingly to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
 
 The Lighthouse analysis was run on both mobile and desktop devices and the results are illustrated below:
 
-- Desktop:
-  - index.html
+  Desktop: index.html
   ![Index.html desktop analysis](docs/readme_images/index-desktop.png)
 
-  - cake-of-the-month.html
+  Desktop: cake-of-the-month.html
   ![Cake of the month desktop analysis](docs/readme_images/cake-month-desktop.png)
 
-  - baking-tips.html
+  Desktop: baking-tips.html
   ![Baking tips desktop analysis](docs/readme_images/tips-desktop.png)
 
-- Mobile:
-  - index.html
+  Mobile: index.html
   ![Index.html mobile analysis](docs/readme_images/index-mobile.png)
 
-  - Cake of the Month page
+Mobile: Cake of the Month page
   ![Cake of the Month mobile analysis](docs/readme_images/cake-month-mobile.png)
 
-   - Baking Tips page
+Mobile: Baking Tips page
   ![Baking Tips mobile analysis](docs/readme_images/tips-mobile.png)
 
 
