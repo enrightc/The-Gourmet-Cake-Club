@@ -1,11 +1,64 @@
-# The Gourmet Cake Club
+# THE GOURMET CAKE CLUB
+![The Gourmet Cake Club Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
+[Fonts](#Fonts)
+
+# Table of Contents
+- [THE GOURMET CAKE CLUB](#the-gourmet-cake-club)
+- [Table of Contents](#table-of-contents)
+- [INTRODUCTION](#introduction)
+  - [Overall Website Aim](#overall-website-aim)
+  - [External User Goals](#external-user-goals)
+  - [Website Owners Goals](#website-owners-goals)
+- [DESIGN](#design)
+  - [Wireframes](#wireframes)
+  - [Imagery](#imagery)
+  - [Colors](#colors)
+  - [Fonts](#fonts)
+  - [Accessibility](#accessibility)
+  - [Design Feedback](#design-feedback)
+- [FEATURES](#features)
+  - [Existing Features:](#existing-features)
+    - [**Navigation:**](#navigation)
+    - [**Hero Images:**](#hero-images)
+    - [**Landing Page:**](#landing-page)
+    - [**Cake of the Month Page:**](#cake-of-the-month-page)
+    - [**Baking Tips Page**](#baking-tips-page)
+    - [**Sign Up**](#sign-up)
+    - [**Footer**](#footer)
+  - [Future Website Enhancements:](#future-website-enhancements)
+- [BUGS](#bugs)
+    - [Fixed Bugs](#fixed-bugs)
+      - [Hero Image Rendering Issue on Mobile Devices](#hero-image-rendering-issue-on-mobile-devices)
+      - [Navigation Bar Overlaps Section Headings](#navigation-bar-overlaps-section-headings)
+    - [Known Bugs (unresolved)](#known-bugs-unresolved)
+      - [Hover State Reset After Modal Closure](#hover-state-reset-after-modal-closure)
+- [Technology](#technology)
+  - [Languages Used:](#languages-used)
+  - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+- [TESTING](#testing)
+  - [Manual Testing](#manual-testing)
+    - [Feature testing:](#feature-testing)
+    - [Browser Compatibility:](#browser-compatibility)
+    - [Responsiveness Test:](#responsiveness-test)
+  - [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Light House Analysis](#light-house-analysis)
+- [DEPLOYMENT](#deployment)
+- [CREDITS](#credits)
+    - [Content](#content)
+    - [Images](#images)
+  - [Resources](#resources)
+    - [For specific tasks](#for-specific-tasks)
+    - [Acknowledgements](#acknowledgements)
+
+
+
+# INTRODUCTION
 The Gourmet Cake Club provides a go-to destination for an exquisite assortment of beautifully crafted cakes. Explore the monthly feature, the "Cake of the Month", which features a delightful cake with detailed recipes and ingredients for a tempting experience. If you're hungry for more, sign up to receive additional sweet surprises directly to your inbox. Explore the "Baking Tips" section to find answers to common cake-making queries. Join us in celebrating the art of baking with each visit.
 
 Visit Gourmet Cake Clubs website here [The Gourmet Cake Club](https://enrightc.github.io/Gourmet-Cake-Club-Website/)
-
-![The Gourmet Cake Club Am I Responsive Image](docs/readme_images/am-i-responsive.png)
-
 
 ## Overall Website Aim
 
@@ -269,7 +322,7 @@ Hover over the button again, and the hover state should now display correctly.
 - HTML: Employed for organising and presenting the site content.
 - CSS: Utilised for the styling and layout of the site.
 
-# Frameworks, Libraries and Programs Used
+## Frameworks, Libraries and Programs Used
 - Bootstrap (version 4.1) 
   - For website design and developmentof elements such as nabvbr, layouts and the accordion.
 - Google Fonts 
