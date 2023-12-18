@@ -166,7 +166,7 @@ td {
     background: url("../images/baking-tips-hero-image.webp") no-repeat bottom center;
 }
 
-/* ----------------------------------------- Index.html */
+    /* ----------------------------------------- Index.html */
 /* ----------------------------------------- Hero Title */
 .hero-title {
     color: white;
@@ -181,9 +181,10 @@ td {
 
 /* ----------------------------------------- About */
 .about {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 77px auto;
 }
+
 
 /* ----------------------------------------- Cake of the Month section */
 .container-margin {
