@@ -14,6 +14,14 @@ header {
     margin: 0 32px;
 }
 
+@media (max-width: 736px) {
+    .logo {
+        height: 40px;
+        width: auto;
+        margin: 0 32px;
+    }
+}
+
 /* ----------------------------------------- Media Queries */
 @media (max-width: 768px) {
     .padding-space {
