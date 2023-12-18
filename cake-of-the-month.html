@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes.">
+    <meta name="description" content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes.">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://kit.fontawesome.com/c3713995f0.js" crossorigin="anonymous"></script>
@@ -18,6 +17,7 @@
 
   <body>
     <header>
+        <!-- Bootstrap Navigation bar -->
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top nav-background-dark">
             <a href="index.html"><img class="navbar-brand logo" src="assets/images/logo.webp" width="500" height="318"
                     alt="The company logo illustrated by a sketch of a slice of cake." loading="lazy"></a>
@@ -42,8 +42,9 @@
                 <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
             </div>
         </nav>
+        <!-- /. Bootstrap Navigation Bar -->
 
-      <!-- Hero -->
+        <!-- Hero -->
         <div class="container-fluid page-hero-container monthly-cake"></div>
         <div role="img" aria-label="A professional chef wearing a pristine white chef's uniform and hat, is meticulously preparing a chocolate Nutella cake ">
         </div>
@@ -89,7 +90,7 @@
                 </div>
                 <div class="col-12 col-md-6 my-5">
                     <img class="chocolate-cake-image" src="assets/images/chocolate-cake.webp" 
-                        alt="A beautifully decorated chocolate nutella cake" width="600" height="600">
+                        alt="A beautifully decorated chocolate nutella cake" style="width:800px;height:800px">
                 </div>
             </div>
         </section>
@@ -239,7 +240,6 @@
         </section>
     </div>
     
-
     <div class="container container-margin">
         <section class="planning-ahead">
             <h3>Planning ahead</h3>
@@ -273,43 +273,6 @@
     </div>
     <!-- /.Notes -->
 
-    <!-- Modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
-                        your inbox</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
-                                required>
-                        </div>
-        
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
-                                placeholder="Enter email" required>
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div>
-                            <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club</p>
-                        </div>
-                        <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.Modal -->
-    
     <!-- footer-->
     <footer class="container-fluid">
         <div class="row">
@@ -353,6 +316,44 @@
         </div>
     </footer>
     <!-- /.footer -->
+
+    <!-- Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up to the Gourmet Cake Club to receive delicious recipes straight to
+                        your inbox</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Your first name"
+                                required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" name="email" class="form-control" id="email" aria-describedby="email"
+                                placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div>
+                            <p>By clicking the "Sign Me Up" button you agree to receive emails from the Gourmet Cake Club
+                            </p>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-sign-up">Sign me up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Modal -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

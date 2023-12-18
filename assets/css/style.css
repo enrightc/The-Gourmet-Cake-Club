@@ -57,7 +57,6 @@ li {
 }
 
 /* ----------------------------------------- special paddings/margins/text */
-
 h1,
 h2,
 h3,
@@ -241,7 +240,7 @@ td {
     border-radius: 3%;
 }
 
-/* ----------------------------------------- Cake of the Month Page */
+    /* ----------------------------------------- Cake of the Month Page */
 /* ----------------------------------------- Cake of the month bio */
 .cake-info {
     background-color: #efebeb;
@@ -278,7 +277,7 @@ td {
     padding: 25px;
 }
 
-/* ----------------------------------------- Baking Tips */
+    /* ----------------------------------------- Baking Tips */
 /* ----------------------------------------- Accordion */
 .tips-accordion {
     margin-top: 50px;
@@ -384,5 +383,5 @@ footer {
 }
 
 .social-links li a i:hover {
-    color: black;
+    color: #4e7fff;
 }

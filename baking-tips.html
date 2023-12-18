@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes.">
+    <meta name="description" content="Explore delectable cake creations, indulge in our Cake of the Month, and discover a world of expertly crafted recipes.">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://kit.fontawesome.com/c3713995f0.js" crossorigin="anonymous"></script>
@@ -18,6 +17,7 @@
 
   <body>
     <header>
+        <!-- Bootstrap Navigation Bar -->
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top nav-background-dark">
             <a href="index.html"><img class="navbar-brand logo" src="assets/images/logo.webp" width="500" height="318"
                     alt="The company logo illustrated by a sketch of a slice of cake."></a>
@@ -31,7 +31,7 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="cake-of-the-month.html">Cake of the Month</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="baking-tips.html">Baking Tips</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="baking-tips.html">Baking Tips</a></li>
                     <li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link sign-up-link" data-toggle="modal"
                         data-target="#signUpModal" href="#">Sign Up</a>
                     </li>
@@ -42,6 +42,7 @@
                 <a href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
             </div>
         </nav>
+        <!-- /. Bootstrap Navigation Bar -->
           
 
       <!-- Hero -->
@@ -64,7 +65,7 @@
       <!-- /.Hero -->
     </header>
 
-    <!-- Accordion -->
+    <!-- Bootstrap Accordion -->
     <div class="container tips-accordion">
       <div class="accordion" id="accordionExample">
         <div class="card">
@@ -352,7 +353,7 @@
         </div>
       </div>
     </div>
-    <!-- /.Accordion -->
+    <!-- /.Bootstrap Accordion -->
 
     <!-- Footer-->
     <footer class="container-fluid">
@@ -434,7 +435,6 @@
             </div>
         </div>
     </div>
-
     <!-- /.Modal -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
