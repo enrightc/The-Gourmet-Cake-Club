@@ -394,23 +394,9 @@ Lighthouse in Chrome Developer Tools was used to assess the performance, accessi
 
 The Lighthouse analysis was run on both mobile and desktop devices and the results are illustrated below:
 
-  Desktop: index.html
-  ![Index.html desktop analysis](docs/readme_images/index-desktop.png)
-
-  Desktop: cake-of-the-month.html
-  ![Cake of the month desktop analysis](docs/readme_images/cake-month-desktop.png)
-
-  Desktop: baking-tips.html
-  ![Baking tips desktop analysis](docs/readme_images/tips-desktop.png)
-
-  Mobile: index.html
-  ![Index.html mobile analysis](docs/readme_images/index-mobile.png)
-
-  Mobile: cake-of-the-month.html
-  ![Cake of the Month mobile analysis](docs/readme_images/cake-month-mobile.png)
-
-Mobile: baking.tips.html
-  ![Baking Tips mobile analysis](docs/readme_images/tips-mobile.png)
+Baking Tips Accordion:
+![Lighthouse Analysis](docs/readme_images/lighthouse-analysis-image.png)
+ 
 
 
 # DEPLOYMENT
