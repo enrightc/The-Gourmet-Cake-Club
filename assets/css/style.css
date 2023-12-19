@@ -253,7 +253,8 @@ td {
 
 .chocolate-cake-image {
     width: 100%;
-    height: auto;
+    height: 600px;
+    object-fit: cover;
 }
 
 /* ----------------------------------------- Ingredients and Recipe */
