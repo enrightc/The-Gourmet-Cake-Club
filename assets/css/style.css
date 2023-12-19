@@ -131,6 +131,22 @@ td {
     padding: 10px;
 }
 
+.alt-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alt-link:hover {
+    color: #0056b3;
+}
+
+.extra-padding {
+    padding-bottom: 110px;
+    padding-top: 50px;
+}
+
+
+
 /* ----------------------------------------- Heroes */
 .hero-container {
     background: url("../images/hero.webp") no-repeat top center;
