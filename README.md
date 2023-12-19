@@ -25,6 +25,7 @@
     - [**Baking Tips Page**](#baking-tips-page)
     - [**Sign Up**](#sign-up)
     - [**Footer**](#footer)
+    - [**404 Error Page**](#404-error-page)
   - [Future Website Enhancements](#future-website-enhancements)
 - [BUGS](#bugs)
     - [Fixed Bugs](#fixed-bugs)
@@ -32,6 +33,7 @@
       - [Navigation Bar Overlaps Section Headings](#navigation-bar-overlaps-section-headings)
     - [Known Bugs (unresolved)](#known-bugs-unresolved)
       - [Hover State Reset After Modal Closure](#hover-state-reset-after-modal-closure)
+      - [Sign-Up Button Not Visible on Small devices in Landscape Orientation](#sign-up-button-not-visible-on-small-devices-in-landscape-orientation)
 - [TECHNOLOGY](#technology)
   - [Languages Used:](#languages-used)
   - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -254,6 +256,19 @@ Sign-up Modal:
 Footer:
 ![Footer screenshot](docs/readme-images/footer-screenshot.png)
 
+### **404 Error Page**
+-   The personalised 404 error page is designed to assist visitors in case they land on a missing page.
+- The page displays a friendly notification, acknowledging the absence of the requested content.
+- Users are provided with helpful suggestions, such as exploring other sections of the website.
+- Direct links to prominent sections, including "Home," "Cake of the Month," and "Baking Tips," guide users to relevant content.
+- Additionally, the page suggests refreshing the browser or checking the URL for any typos.
+- This thoughtful approach aims to engage users positively, redirecting them to valuable content or helping them troubleshoot common issues.
+- User expiernece is priortised even in the case of a missing page, offering guidance and alternatives to keep visitors connected with The Gourmet Cake Club's delightful offerings.
+
+404 Error Page:
+![404 Error Page screenshot](docs/readme-images/404-error-page.png)
+
+
 ## Future Website Enhancements
  **Archive Cake Recipes**
   - As each month passes and a new monthly cake is added the previous cake of the month will be added to a recipe archive that will be maintained on an additional web page. 
@@ -317,6 +332,18 @@ Hover over the button and observe the hover state.
 Note that the hover state may not reset as expected.
 Click elsewhere on the page.
 Hover over the button again, and the hover state should now display correctly.
+
+#### Sign-Up Button Not Visible on Small devices in Landscape Orientation
+- Issue: On small devices in landscape mode, the "Sign Up" button in the navigation bar does not appear.
+- Description: When viewing the website on small devices in landscape orientation, the "Sign Up" button in the navigation bar is not visible. This may impact user accessibility and the ability to easily access the sign-up functionality from the navigation bar. It's important to note that the sign-up option is still available in the call-to-action section at the bottom of the home page.
+- Expected Behavior: The "Sign Up" button should be consistently visible in the navigation bar on all devices and orientations, ensuring a seamless and accessible experience for users.
+- Steps to Reproduce:
+    - Access the website on a small device in landscape mode.
+Navigate to any page.
+  - Observe that the "Sign Up" button is not visible in the navigation bar.
+Check the call-to-action section at the bottom of the home page, where the sign-up option is still available.
+  - Compare this behaviour to other pages where the "Sign Up" button is expected to be present in the navigation bar.
+
 
 # TECHNOLOGY
 
@@ -438,7 +465,10 @@ Click on 'Settings' located near the top of the page.
 [Accessed 7th Dec 2023]
 
 - Favicon [W3 School](https://www.w3schools.com/html/html_favicon.asp) [Accessed 17th December, 2023]
+
 - Lazy image loading [W3 School](https://www.w3schools.com/tags/att_img_loading.asp) [Accessed 17th December, 2023]
+
+- For 404 error page [Creating an HTML 404! Error Web Page](https://www.udacity.com/blog/2021/03/creating-an-html-404-error-web-page.html) [Accessed 19th December, 2023]
   
 
 ## Acknowledgements
