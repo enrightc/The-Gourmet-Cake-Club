@@ -1,5 +1,5 @@
 # THE GOURMET CAKE CLUB
-![The Gourmet Cake Club Am I Responsive Image](docs/readme_images/am-i-responsive.png)
+![The Gourmet Cake Club Am I Responsive Image](docs/readme-images/am-i-responsive.png)
 
 # TABLE OF CONTENTS
 - [THE GOURMET CAKE CLUB](#the-gourmet-cake-club)
@@ -111,6 +111,7 @@ This iterative process allowed for flexibility in adapting to evolving project r
 [sign-up (Desktop and mobile)](docs/wireframes/sign-up.png)
 
 [Tips (Desktop and mobile)](docs/wireframes/tips.png)
+
 ## Imagery
 
 The selection of imagery for The Gourmet Cake Club website is intentional and contributes to the overall aesthetic of the site. The goal is to convey an impression of elegance, professionalism, and cleanliness. To achieve this, images have been carefully selected featuring beautifully decorated cakes showcased against clean, professional, and sophisticated environments.
@@ -180,13 +181,12 @@ The following information provides an overview of the features found within the 
   -  Bootstrap is utilised to achieve the responsive and user-friendly navigation elements.
 
 Navigation bar on large devices:
-![Navigation bar](docs/readme_images/navigation-bar.png)
+![Navigation bar](docs/readme-images/navigation-bar.png)
 
 
 Navigation bar on smaller devices:
-<p align="center">
-  <img src="docs/readme_images/navigation-bar-mobile.png"/>
-</p>
+![Navigation bar](docs/readme-images/navigation-bar-mobile.png)
+
 
 ### **Hero Images:**
 On every page, a striking hero image takes center stage just beneath the navigation bar, immediately capturing the visitor's attention. Notably, each page features a distinct hero image carefully chosen to prevent visitor fatigue. This deliberate choice aims to create a dynamic and visually engaging experience for users, ensuring that as they navigate through various sections, they are met with fresh and relevant visuals. The use of different hero images not only adds aesthetic diversity but also serves to highlight the unique content and theme of each page, making the overall browsing experience more captivating and enjoyable.
@@ -196,7 +196,7 @@ On every page, a striking hero image takes center stage just beneath the navigat
   - The landing page boasts a captivating hero section directly below the navigation bar.  The hero features a striking background image with text overlay, elegantly presenting the website's title and tagline. To enhance the visual impact, the hero on the landing page has a view height value set to 90, meaning it occupies a significant portion of the device screen. This intentional design choice ensures that visitors are greeted with a visually immersive experience, setting the tone for the rest of the website.
 
 Landing page hero:
-![Navigation bar](docs/readme_images/hero-image.png)
+![Landin page hero](docs/readme-images/hero-image.png)
 
 - **About**
   - Directly beneath the hero the website visitor will find a "welcome" message that provides a brief overview of the website and the content that can be found within.
@@ -205,15 +205,15 @@ Landing page hero:
   - Within the main body of the landing page website visitors will find sections that relate to the pages of the website ("Cake of the Month" and "Baking Tips"). Each section contains a brief description on what the user will find if they explore the pages and a "Read More" link that will direct them to the relevant page. It is intended that the "Cake of the Month" image and description will be updated each month with the new monthly cake feature. 
   - The "Read More" links are implemented as Bootstrap buttons, providing a consistent and visually appealing design for user interaction. The styles have been customised to align with the website aesthetics. 
 
-Welcome message and features:
-![Navigation bar](docs/readme_images/landing-page-features.png)
+Welcome message and sections:
+![Welcome messages and sections](docs/readme-images/landing-page-features.png)
  
 
   **Call To Action**
   - At the bottom of the page visitors will find a call-to-action. Clicking the "sign-up" button triggers the same modal as seen in the navigation bar.
 
 Call-to-Action:
-![Call to action screenshot](docs/readme_images/cta-screenshot.png)
+![Call to action screenshot](docs/readme-images/cta-screenshot.png)
 
 ### **Cake of the Month Page:**
   - This page will be regularly updated with a new "Cake of the Month", whilst maintaining a consistent layout for simplicity and familiarity for returning users.
@@ -222,10 +222,10 @@ Call-to-Action:
   - On large devices the ingredients and recipe are provided side-by-side to allow the visitor to easily reference the content of both without the need for scrolling. 
 
 Info box and cake description on the "Cake of the month" page (Note the "Jump to Recipe" button that allows visitors to skip past the cake description and get straight to the recipe):
-![Call to action screenshot](docs/readme_images/info-box-image.png)
+![recipe info box](docs/readme-images/info-box-image.png)
 
 Ingredients and Recipe:
-![Call to action screenshot](docs/readme_images/recipe-screenshot.png)
+![Ingredients and recipe](docs/readme-images/recipe-screenshot.png)
 
 ### **Baking Tips Page**
   - On this page visitors can find answers to some of the most common cake baking questions.
@@ -233,7 +233,7 @@ Ingredients and Recipe:
   - The accordion proves a user-friendly experience. Visitors can click on a question to reveal the answer.
 
 Baking Tips Accordion:
-![Call to action screenshot](docs/readme_images/accordion-image.png)
+![Baking tips accordion](docs/readme-images/accordion-image.png)
 
 
 ### **Sign Up**
@@ -244,7 +244,7 @@ Baking Tips Accordion:
   
 
 Sign-up Modal:
-![Sign-up modal screenshot](docs/readme_images/sign-up-modal-screenshot.png)
+![Sign-up modal screenshot](docs/readme-images/sign-up-modal-screenshot.png)
 
 ### **Footer**
   - The footer section includes links to The Gourmet Cake Club's social media pages (Facebook, Instagram, Twitter and Youtube).
@@ -252,7 +252,7 @@ Sign-up Modal:
   - The footer serves as a valuable resource, enabling users to effortlessly find and follow The Gourmet Cake Club across different social channels.
 
 Footer:
-![Footer screenshot](docs/readme_images/footer-screenshot.png)
+![Footer screenshot](docs/readme-images/footer-screenshot.png)
 
 ## Future Website Enhancements
  **Archive Cake Recipes**
