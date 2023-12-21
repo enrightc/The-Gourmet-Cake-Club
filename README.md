@@ -80,7 +80,7 @@ The primary aim of The Gourmet Cake Club website is to delight cake enthusiasts 
 ## User Story
 - First-time User
 
-  - As a first-time user, I want to quickly grasp the essence of The Gourmet  Cake Club and understand how it caters to cake enthusiasts with its high-end and visually stunning cakes.
+  - As a first-time user, I want to quickly grasp the essence of The Gourmet Cake Club and understand how it caters to cake enthusiasts with its high-end and visually stunning cakes.
   - As a first-time user, I aim to navigate the website effortlessly, ensuring a positive and enjoyable experience while exploring the exquisite cake collection.
   - As a first-time user, I want to freely browse through the cake recipes and baking tips without the need to sign up, allowing me to sample the content before committing.
   
@@ -146,7 +146,7 @@ By combining these fonts thoughtfully it provides a cohesive and visually pleasi
 
 ## Accessibility
 
-Ensuring a positive and inclusive user experience is a priority for The Gourmet Cake Club website. Therefore design choices are guided by accessibility principles to accommodate a diverse audience.
+Ensuring a positive and inclusive user experience is a priority for The Gourmet Cake Club website. Therefore, design choices are guided by accessibility principles to accommodate a diverse audience.
 
 - **Colour Contrast:** The website's primary colour scheme of black and white is intentionally selected to provide a strong contrast, enhancing readability for all users. This ensures that text and content stand out clearly against the background, promoting a visually accessible experience.
 
@@ -176,7 +176,7 @@ The Gourmet Cake Club website has undergone thoughtful design reviews from frien
 The following information provides an overview of the features found within the website. 
 
 ### **Navigation:**
-  - The website features a fully responsive navigation bar located at the top of the website, showcasing links to "Home", 'Cake of the Month", and "Baking Tips", positioned at the center of the navigation bar, these links provide easy access to different pages of the website.
+  - The website features a fully responsive navigation bar located at the top of the website, showcasing links to "Home", 'Cake of the Month", and "Baking Tips", positioned at the centre of the navigation bar, these links provide easy access to different pages of the website.
   - The navigation bar maintains a fixed position, ensuring visibility at the top of the page as users scroll. Adjacent to the navigation bar's left side is a discreet site logo, serving as a direct link to the home page when clicked from any other page.
   - On the right side of the navigation bar, a "Sign Up" link calls users to subscribe for monthly updates. Clicking this link opens a modal where users can submit their email addresses.
   - For a seamless experience on smaller devices, the navigation bar gracefully collapses into a hamburger menu. When viewed on a small device The website logo remains on the left, and to the right, the hamburger menu icon appears. Activating the hamburger menu expands the navigation options, now including the "Sign Up" link at the end of the list. This thoughtful design ensures easy navigation and engagement, regardless of the user's device.
@@ -191,7 +191,7 @@ Navigation bar on smaller devices:
 
 
 ### **Hero Images:**
-On every page, a striking hero image takes center stage just beneath the navigation bar, immediately capturing the visitor's attention. Notably, each page features a distinct hero image carefully chosen to prevent visitor fatigue. This deliberate choice aims to create a dynamic and visually engaging experience for users, ensuring that as they navigate through various sections, they are met with fresh and relevant visuals. The use of different hero images not only adds aesthetic diversity but also serves to highlight the unique content and theme of each page, making the overall browsing experience more captivating and enjoyable.
+On every page, a striking hero image takes centre stage just beneath the navigation bar, immediately capturing the visitor's attention. Notably, each page features a distinct hero image carefully chosen to prevent visitor fatigue. This deliberate choice aims to create a dynamic and visually engaging experience for users, ensuring that as they navigate through various sections, they are met with fresh and relevant visuals. The use of different hero images not only adds aesthetic diversity but also serves to highlight the unique content and theme of each page, making the overall browsing experience more captivating and enjoyable.
 
 ### **Landing Page:**
 - **Hero**
@@ -231,7 +231,7 @@ Ingredients and Recipe:
 
 ### **Baking Tips Page**
   - On this page visitors can find answers to some of the most common cake baking questions.
-  - A Bootstrap accordion component has been used to organise the content within callapsible items. This particular accordion allows the display of one collapsed item a time. 
+  - A Bootstrap accordion component has been used to organise the content within collapsible items. This particular accordion allows the display of one collapsed item a time. 
   - The accordion provides a user-friendly experience. Visitors can click on a question to reveal the answer.
 
 Baking Tips Accordion:
@@ -249,7 +249,7 @@ Sign-up Modal:
 ![Sign-up modal screenshot](docs/readme-images/sign-up-modal-screenshot.png)
 
 ### **Footer**
-  - The footer section includes links to The Gourmet Cake Club's social media pages (Facebook, Instagram, Twitter and Youtube).
+  - The footer section includes links to The Gourmet Cake Club's social media pages (Facebook, Instagram, Twitter and YouTube).
   - The links will open in a new tab for user convenience.
   - The footer serves as a valuable resource, enabling users to effortlessly find and follow The Gourmet Cake Club across different social channels.
 
@@ -263,7 +263,7 @@ Footer:
 - Direct links to prominent sections, including "Home," "Cake of the Month," and "Baking Tips," guide users to relevant content.
 - Additionally, the page suggests refreshing the browser or checking the URL for any typos.
 - This thoughtful approach aims to engage users positively, redirecting them to valuable content or helping them troubleshoot common issues.
-- User experience is priortised even in the case of a missing page, offering guidance and alternatives to keep visitors connected with The Gourmet Cake Club's delightful offerings.
+- User experience is prioritise even in the case of a missing page, offering guidance and alternatives to keep visitors connected with The Gourmet Cake Club's delightful offerings.
 
 404 Error Page:
 ![404 Error Page screenshot](docs/readme-images/404-error-page.png)
@@ -295,7 +295,7 @@ Footer:
 
 - Issue: The hero image did not render correctly on mobile devices, resulting in a zoomed-in view on a small section of the image.
 - Description: During testing on a mobile phone display, it was observed that the hero image was not rendering as expected. The issue was identified to be related to the "fixed" value in the background property, causing the image to display incorrectly and eliminating the intended parallax effect.
-- Expected Behavior: The hero image should render correctly on all devices, including mobile, without sacrificing the intended parallax effect.
+- Expected Behaviour: The hero image should render correctly on all devices, including mobile, without sacrificing the intended parallax effect.
 - Steps to Reproduce:
   - Access the website on a mobile device.
   - Observe the rendering of the hero image, noting the zoomed-in view.
@@ -309,7 +309,7 @@ Footer:
 
 - Issue: When clicking on a link to jump to a specific section of the page, the fixed navigation bar was overlapping the headings of that section, making them entirely hidden from view.
 - Description: The fixed navigation bar does not account for the presence of section headings, causing a visual obstruction when using links to navigate to specific sections. This affects the user experience as essential information becomes concealed, impacting the clarity of the content.
-- Expected Behavior: When the user uses a link to navigate to a section of the page the section sub-headings should be visible without any overlap or obstruction from the navigation bar.
+- Expected Behaviour: When the user uses a link to navigate to a section of the page the section sub-headings should be visible without any overlap or obstruction from the navigation bar.
 - Steps to Reproduce:
   - Navigate to Cake of the Month page.
   - Click on the "Jump to recipe".
@@ -334,8 +334,8 @@ Check the call-to-action section at the bottom of the home page, where the sign-
 #### Hover State Reset After Modal Closure
 
 - Issue: After clicking the call-to-action button on the bottom of the landing page that opens a modal and subsequently closing the modal, the button's hover state is not reset immediately.
-- Description: The hover state of the button fails to reset after closing the modal, resulting in the button not displaying the expected blue color when hovered over. However, clicking elsewhere on the page resolves this issue, and the button regains its proper hover behavior.
-- Expected Behavior: The buttons hover state should reset immediately after closing the modal, providing a seamless and expected user experience.
+- Description: The hover state of the button fails to reset after closing the modal, resulting in the button not displaying the expected blue colour when hovered over. However, clicking elsewhere on the page resolves this issue, and the button regains its proper hover behaviour.
+- Expected Behaviour: The buttons hover state should reset immediately after closing the modal, providing a seamless and expected user experience.
 - Steps to Reproduce:
 Click the button to open the modal.
 Close the modal.
@@ -352,11 +352,11 @@ Hover over the button again, and the hover state should now display correctly.
 
 ## Frameworks, Libraries and Programs Used
 - Bootstrap (version 4.1) 
-  - Grid System - Used to layout and align website conent through a series of containers, rows and columns. It uses flexbox and is therefore fully responsive to ensure a seamless user experience across a variety of devices. The responsive design adapts the layout to different screen sizes, enhancing accessibility and user satisfaction. 
+  - Grid System - Used to layout and align website content through a series of containers, rows and columns. It uses flexbox and is therefore fully responsive to ensure a seamless user experience across a variety of devices. The responsive design adapts the layout to different screen sizes, enhancing accessibility and user satisfaction. 
   - Navbar - The website's navigation bar benefits from Bootstrap's responsive navigation components. It ensures a user-friendly and visually appealing navigation experience, particularly on smaller screens, where it gracefully collapses into a hamburger menu.
   - Accordion - Bootstrap's accordion component is utilised in the "Baking Tips" page to organise and present content in collapsible sections. This enhances user interaction and readability, providing an efficient way to display information.
-  - Buttons - Bootstrap's buttons are incorporated throughout the website, contributing to a consistent and visually appealing call-to-action design. The button styles and behaviour are customised to align with the websites aesthetics and user experience.
-  - Modal - Bootstrap's modal is seamlessly integrated into the website, providing a sleek and user-friendly way to capture user input. The modals is utilised in the "Sign Up" feature, ensuring a smooth and visually engaging interaction.
+  - Buttons - Bootstrap's buttons are incorporated throughout the website, contributing to a consistent and visually appealing call-to-action design. The button styles and behaviour are customised to align with the website's aesthetics and user experience.
+  - Modal - Bootstrap's modal is seamlessly integrated into the website, providing a sleek and user-friendly way to capture user input. The modals are utilised in the "Sign Up" feature, ensuring a smooth and visually engaging interaction.
 - Google Fonts.
   - For importing font styles.
 - Font Awesome
@@ -376,7 +376,7 @@ Hover over the button again, and the hover state should now display correctly.
 - Github pages
     - Used for hosting the deployed website.
 - Codeanywhere
-  - Used for development as a cloud-based Integtated Development Evvironment (IDE).
+  - Used for development as a cloud-based Integrtated Development Environment (IDE).
   
 
 
@@ -398,11 +398,11 @@ Manual testing was conducted on the 15th December, 2023. The following table lis
 | Call-to-Action | Click on the sign-up button      |    Modal successfully opens |
 | Sign-up Form | Submit a form      |    Form successfully submitted once all fields are completed. User is notified of any blank fields |
 | Jump to Recipe" button | click the button      |    User successfully taken to recipe section |
-| Question and Answers Accodion | Click an item to display the answer     |    Answer cards successfully expand and collapse |
+| Question and Answers Accordion | Click an item to display the answer     |    Answer cards successfully expand and collapse |
 | Social media links | click a social media icon     |    Clicking the icon successfully opens a new tab linking to the relevant social media page |
 
 ### Browser Compatibility:
-| Browser Tested       | Intended appearence          | intended Responsiveness  |
+| Browser Tested       | Intended appearance          | intended Responsiveness  |
 | ------------- |:-------------:| -----:|
 | Chrome      | Good | Good |
 | Mozilla      | Good      |   Good |
@@ -424,7 +424,7 @@ To test the markup validity [HTML Validator](https://validator.w3.org/) was run 
 A [CSS Validator](https://validator.w3.org/) was used to check the validity of the CSS code of the website. There were no errors or warnings detected.
 
 ### Light House Analysis
-Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best practice and SEO rating of the website. This analysis was ran throughout the website development with recomendations implemented accordingly to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
+Lighthouse in Chrome Developer Tools was used to assess the performance, accessibility, best practice and SEO rating of the website. This analysis was run throughout the website development with recommendations implemented accordingly to improve the score. This included compressing image sizes, adjusting contrast ratio for links and adding a meta description.
 
 The Lighthouse analysis was run on both mobile and desktop devices and the results are illustrated below:
 
@@ -448,14 +448,14 @@ Click on 'Settings' located near the top of the page.
 - Chocolate Nutella Cake recipe was sourced from [Baked by an introvert](https://www.bakedbyanintrovert.com/nutella-cake/).
 
 ### Images
-- The home page hero and call-to-action background  and the website logo images were obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attirbution required.
-- All other images weer created using ChatGPT DALL.E.
+- The home page hero, call-to-action background and the website logo images were obtained from [Rawpixel](https://www.rawpixel.com). These images are from the public domain collection and are free for personal and commercial use with no attiibution required.
+- All other images were created using ChatGPT DALL.E.
 
 
 ## Resources
 - [W3Schools](https://www.w3schools.com)
 - [Stack overflow](https://stackoverflow.com)
-- Code Instiute learning material
+- Code Institute learning material
 
 
 - For help with position navigation links to centre of nav bar: [Stack overflow](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) 
@@ -463,15 +463,15 @@ Click on 'Settings' located near the top of the page.
 - For help with Aria-labels and background images [Alternate Text for Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 [Accessed 7th Dec 2023]
 
-- Favicon [W3 School](https://www.w3schools.com/html/html_favicon.asp) [Accessed 17th December, 2023]
+- Favicon [W3 Schools](https://www.w3schools.com/html/html_favicon.asp) [Accessed 17th December, 2023]
 
-- Lazy image loading [W3 School](https://www.w3schools.com/tags/att_img_loading.asp) [Accessed 17th December, 2023]
+- Lazy image loading [W3 Schools](https://www.w3schools.com/tags/att_img_loading.asp) [Accessed 17th December, 2023]
 
 - For 404 error page [Creating an HTML 404! Error Web Page](https://www.udacity.com/blog/2021/03/creating-an-html-404-error-web-page.html) [Accessed 19th December, 2023]
   
 
 ## Acknowledgements
-Many Thanks to my mentor, Antonio Rodriguez, for his help and advice. Also to Alan Busell (Code Institute), James Williams and Poppy McLaughlin for their support and kindly reviewing my website. 
+Many Thanks to my mentor, Antonio Rodriguez, for his help and advice. Also, to Alan Busell (Code Institute), James Williams and Poppy McLaughlin for their support and kindly reviewing my website. 
 
 
 
