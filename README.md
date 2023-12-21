@@ -31,9 +31,9 @@
     - [Fixed Bugs](#fixed-bugs)
       - [Hero Image Rendering Issue on Mobile Devices](#hero-image-rendering-issue-on-mobile-devices)
       - [Navigation Bar Overlaps Section Headings](#navigation-bar-overlaps-section-headings)
+      - [Sign-Up Button Not Visible on Small devices in Landscape Orientation](#sign-up-button-not-visible-on-small-devices-in-landscape-orientation)
     - [Known Bugs (unresolved)](#known-bugs-unresolved)
       - [Hover State Reset After Modal Closure](#hover-state-reset-after-modal-closure)
-      - [Sign-Up Button Not Visible on Small devices in Landscape Orientation](#sign-up-button-not-visible-on-small-devices-in-landscape-orientation)
 - [TECHNOLOGY](#technology)
   - [Languages Used:](#languages-used)
   - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -312,11 +312,22 @@ Footer:
 - Expected Behavior: When the user uses a link to navigate to a section of the page the section sub-headings should be visible without any overlap or obstruction from the navigation bar.
 - Steps to Reproduce:
   - Navigate to Cake of the Month page.
-  - Click on the "Jump to receipe".
+  - Click on the "Jump to recipe".
   - Observe that when the page jumps to the recipe section that subheadings are hidden by the navigation bar.
 - investigation and Solution:
   - Added padding to the top of the receipe section container. Now when the user clicks the links the relevant headings are visible.
   
+  #### Sign-Up Button Not Visible on Small devices in Landscape Orientation
+- Issue: On small devices in landscape mode, the "Sign Up" button in the navigation bar does not appear.
+- Description: When viewing the website on small devices in landscape orientation, the "Sign Up" button in the navigation bar is not visible. This may impact user accessibility and the ability to easily access the sign-up functionality from the navigation bar. It's important to note that the sign-up option is still available in the call-to-action section at the bottom of the home page.
+- Expected Behaviour: The "Sign Up" button should be consistently visible in the navigation bar on all devices and orientations, ensuring a seamless and accessible experience for users.
+- Steps to Reproduce:
+    - Access the website on a small device in landscape mode.
+Navigate to any page.
+  - Observe that the "Sign Up" button is not visible in the navigation bar.
+Check the call-to-action section at the bottom of the home page, where the sign-up option is still available.
+- Investigation and Solution:
+  Updated the Bootstrap class for the navigation bar from navbar-expand-sm to navbar-expand-md to ensure that the navigation bar hamburger menu comes in to affect on medium devices making the "Sign Up" button consistently visible.
 
 ### Known Bugs (unresolved)
 
@@ -332,16 +343,6 @@ Hover over the button and observe the hover state.
 Note that the hover state may not reset as expected.
 Click elsewhere on the page.
 Hover over the button again, and the hover state should now display correctly.
-
-#### Sign-Up Button Not Visible on Small devices in Landscape Orientation
-- Issue: On small devices in landscape mode, the "Sign Up" button in the navigation bar does not appear.
-- Description: When viewing the website on small devices in landscape orientation, the "Sign Up" button in the navigation bar is not visible. This may impact user accessibility and the ability to easily access the sign-up functionality from the navigation bar. It's important to note that the sign-up option is still available in the call-to-action section at the bottom of the home page.
-- Expected Behaviour: The "Sign Up" button should be consistently visible in the navigation bar on all devices and orientations, ensuring a seamless and accessible experience for users.
-- Steps to Reproduce:
-    - Access the website on a small device in landscape mode.
-Navigate to any page.
-  - Observe that the "Sign Up" button is not visible in the navigation bar.
-Check the call-to-action section at the bottom of the home page, where the sign-up option is still available.
 
 # TECHNOLOGY
 
