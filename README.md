@@ -12,7 +12,7 @@
 - [DESIGN](#design)
   - [Wireframes](#wireframes)
   - [Imagery](#imagery)
-  - [Colors](#colors)
+  - [Colours](#colours)
   - [Fonts](#fonts)
   - [Accessibility](#accessibility)
   - [Design Feedback](#design-feedback)
@@ -120,7 +120,7 @@ The selection of imagery for The Gourmet Cake Club website is intentional and co
 
 The consistent use of high-quality visuals aims to provide visitors with a visually pleasing and memorable experience. 
 
-## Colors
+## Colours
 
 The colour scheme of The Gourmet Cake Club website revolves around a sleek and minimalist palette. Opting for a black navigation bar atop a pristine white background, creating an atmosphere of cleanliness and simplicity throughout the site.
 
@@ -232,7 +232,7 @@ Ingredients and Recipe:
 ### **Baking Tips Page**
   - On this page visitors can find answers to some of the most common cake baking questions.
   - A Bootstrap accordion component has been used to organise the content within callapsible items. This particular accordion allows the display of one collapsed item a time. 
-  - The accordion proves a user-friendly experience. Visitors can click on a question to reveal the answer.
+  - The accordion provides a user-friendly experience. Visitors can click on a question to reveal the answer.
 
 Baking Tips Accordion:
 ![Baking tips accordion](docs/readme-images/accordion-image.png)
@@ -351,7 +351,7 @@ Check the call-to-action section at the bottom of the home page, where the sign-
 
 ## Frameworks, Libraries and Programs Used
 - Bootstrap (version 4.1) 
-  - Grid System - Used to layout and align website conent through a series of containers, rows and columns. It uses flexbox and is therefore fully responsive to ensure a seamless user experience across a variety of devices. The responsive design adapts the layout to different screen sizes, enhancing accessibility and user satsfaction. 
+  - Grid System - Used to layout and align website conent through a series of containers, rows and columns. It uses flexbox and is therefore fully responsive to ensure a seamless user experience across a variety of devices. The responsive design adapts the layout to different screen sizes, enhancing accessibility and user satisfaction. 
   - Navbar - The website's navigation bar benefits from Bootstrap's responsive navigation components. It ensures a user-friendly and visually appealing navigation experience, particularly on smaller screens, where it gracefully collapses into a hamburger menu.
   - Accordion - Bootstrap's accordion component is utilised in the "Baking Tips" page to organise and present content in collapsible sections. This enhances user interaction and readability, providing an efficient way to display information.
   - Buttons - Bootstrap's buttons are incorporated throughout the website, contributing to a consistent and visually appealing call-to-action design. The button styles and behaviour are customised to align with the websites aesthetics and user experience.
@@ -373,7 +373,7 @@ Check the call-to-action section at the bottom of the home page, where the sign-
 - W3C
   - Used for validating HTML and CSS.
 - Github pages
-    - Usef for hosting the deployed website.
+    - Used for hosting the deployed website.
 - Codeanywhere
   - Used for development as a cloud-based Integtated Development Evvironment (IDE).
   
@@ -428,7 +428,7 @@ Lighthouse in Chrome Developer Tools was used to assess the performance, accessi
 The Lighthouse analysis was run on both mobile and desktop devices and the results are illustrated below:
 
 
-![Lighthouse Analysis](docs/readme_images/lighthouse-analysis-image.png)
+![Lighthouse Analysis](docs/readme-images/lighthouse-analysis-image.png)
  
 
 
